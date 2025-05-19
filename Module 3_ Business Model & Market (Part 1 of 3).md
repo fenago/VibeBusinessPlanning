@@ -4,220 +4,218 @@
 ![Status: Ready For Input](https://img.shields.io/badge/Status-Ready_For_Input-22C55E?style=for-the-badge)
 ![Estimated Time: 60 Minutes](https://img.shields.io/badge/Estimated_Time-60_Minutes-F5A9B8?style=flat-square)
 
+<div style="border-left: 4px solid #5BCEFA; background-color: #E8F4FD; padding: 12px; margin-bottom: 20px;">
+
 ## 💰 Revenue Model Engineering
 
-> [!NOTE]
 > In this first part of Module 3, you'll begin developing your comprehensive business model, focusing on revenue streams and core market strategies.
 
-### 💸 Module Purpose
+</div>
+
+### 🛰️ Module Purpose
 
 - 💰 **Revenue Stream Design**: Create sustainable income generation pathways
 - 📈 **Market Strategy**: Develop your approach to market penetration and growth
-- 📊 **Pricing Models**: Establish value-based pricing frameworks
-- 💳 **Financial Foundations**: Begin building your core financial model
+- 📉 **Pricing Models**: Establish value-based pricing frameworks
+- 🛍 **Financial Foundations**: Begin building your core financial model
 
-<!-- 
-INSTRUCTIONS FOR USER:
-1. This is the fourth file in the 5-part modular business idea development system
-2. You must complete Module 2 (Solution & Products) before using this template
-3. Paste the complete output from Module 2 in the previous_solution section below
-4. Submit this template to an LLM (like Manus or Claude)
-5. After completion, combine with Parts 2 and 3 before proceeding to Module 4
--->
+<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
 
-<business_model_market_module>
+## 📂 Previous Module Output
 
-## <previous_solution>
-    <!-- REQUIRED: Paste the complete output from Module 2 here -->
-    
-    ### <solution_findings priority="essential">
-        PASTE MODULE 2 OUTPUT HERE: [Paste the entire output from the Solution & Products module]
-    </solution_findings>
-</previous_solution>
+> **INSTRUCTIONS:** Paste the complete output from Module 2 (Parts 1 & 2) here
 
-## <user_input>
-    <!-- OPTIONAL: Provide any additional guidance for business model development -->
-    
-    ### <business_model_preferences priority="optional">
-        YOUR INPUT: [Any specific preferences for your business model or market approach]
-    </business_model_preferences>
-</user_input>
+</div>
 
-## <lLM_instructions>
-    <!-- Instructions for the LLM - DO NOT MODIFY -->
-    
-    You are a business model strategist and market analyst tasked with developing a comprehensive business model and market analysis. Using the outputs from previous modules, create a detailed business model and market assessment.
-    
-    ### Process:
-    
-    1. Carefully review the outputs from previous modules
-    2. Focus on creating a viable business model that supports the solution and products
+<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
+
+## 📝 User Input Section
+
+> **INSTRUCTIONS:** Complete the fields below with your business model preferences. All fields are optional but helpful.
+
+### <span style="color: #3182CE;">Revenue Preferences</span>
+YOUR INPUT: [Add any specific preferences for how your business should generate revenue]
+
+### <span style="color: #3182CE;">Pricing Approach</span>
+YOUR INPUT: [Note any pricing strategy preferences or constraints]
+
+### <span style="color: #3182CE;">Monetization Priorities</span>
+YOUR INPUT: [Describe which aspects of your business you'd most like to monetize]
+
+</div>
+
+<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
+
+## 📓 LLM Instructions
+
+> **INSTRUCTIONS:** Develop the business model and market strategy based on the solution framework
+
+### 🔝 Process
+
+1. Review the solution and products from Modules 1-2
+2. Focus on revenue streams, pricing models, and market positioning
+3. Ensure all aspects align with the value proposition and solution strategy
+4. Prioritize sustainable revenue generation over quick profits
+5. Create a coherent business model that supports product delivery
+6. Use diagrams where appropriate to illustrate business model components
     3. Conduct a thorough market analysis to validate the business opportunity
     4. Ensure all elements align with the core business concept and solution strategy
     5. Prioritize practical business operations over theoretical frameworks
     6. Create visual diagrams using Mermaid.js where appropriate to illustrate concepts
     7. Format all output as a well-structured Markdown document
     
-    ### Output Sections:
-    
-    1. <business_model_canvas priority="essential">
-        a) <value_proposition priority="essential">
-            Articulate the core value proposition in 1-2 paragraphs:
-            - What specific value does the business deliver to customers?
-            - How does it solve customer problems or satisfy needs?
-            - What bundles of products/services are offered to each segment?
-            
-            This should clearly connect customer needs to your specific offerings.
-        </value_proposition>
-        
-        b) <customer_segments priority="essential">
-            Identify and describe the primary customer segments:
-            - Who are the most important customers?
-            - What are their distinct characteristics?
-            - How are they segmented? (demographics, needs, behaviors, etc.)
-            - Are there secondary or tertiary segments?
-            
-            For each segment, explain why they are valuable to the business.
-        </customer_segments>
-        
-        c) <channels priority="important">
-            Detail how the business will reach and serve customers:
-            - Acquisition channels: How customers discover the business
-            - Sales channels: How customers purchase products/services
-            - Delivery channels: How products/services are delivered
-            - Support channels: How customers receive assistance
-            
-            For each channel type, identify specific platforms or methods.
-            
-            Create a Mermaid.js diagram showing the channel strategy.
-            Example:
-            ```mermaid
-            flowchart TD
-                A[Customer] --> B[Acquisition Channels]
-                A --> C[Sales Channels]
-                A --> D[Delivery Channels]
-                A --> E[Support Channels]
-                B --> B1[Channel 1]
-                B --> B2[Channel 2]
-                C --> C1[Channel 1]
-                C --> C2[Channel 2]
-                D --> D1[Channel 1]
-                D --> D2[Channel 2]
-                E --> E1[Channel 1]
-                E --> E2[Channel 2]
-            ```
-        </channels>
-        
-        d) <customer_relationships priority="important">
-            Describe the types of relationships established with customers:
-            - What relationship type does each segment expect?
-            - How are these relationships established and maintained?
-            - How do they integrate with the rest of the business model?
-            - What is the cost and approach for maintaining these relationships?
-            
-            Consider automation, personal service, self-service, communities, etc.
-        </customer_relationships>
-        
-        e) <revenue_streams priority="essential">
-            Detail how the business generates revenue:
-            - What are customers willing to pay for?
-            - How do they currently pay?
-            - How would they prefer to pay?
-            - How much does each revenue stream contribute to total revenue?
-            
-            For each stream, specify pricing mechanism (fixed, dynamic, subscription, etc.).
-            
-            Create a Mermaid.js pie chart showing revenue distribution if appropriate.
-            Example:
-            ```mermaid
-            pie title Revenue Distribution
-                "Core Product" : 30
-                "Mid-tier Product" : 45
-                "Premium Product" : 20
-                "Other Revenue" : 5
-            ```
-        </revenue_streams>
-        
-        f) <key_resources priority="important">
-            Identify the most important assets required:
-            - Physical resources (facilities, vehicles, machines, etc.)
-            - Intellectual resources (brands, patents, data, etc.)
-            - Human resources (talent, expertise, etc.)
-            - Financial resources (cash, credit lines, etc.)
-            
-            Explain why each resource is essential to the business model.
-        </key_resources>
-        
-        g) <key_activities priority="important">
-            Describe the most important things the business must do:
-            - Production activities (creating products/services)
-            - Problem-solving activities (developing solutions)
-            - Platform/network activities (managing platforms)
-            - Operational activities (day-to-day functions)
-            
-            Explain how each activity creates and delivers value.
-        </key_activities>
-        
-        h) <key_partnerships priority="important">
-            Identify essential partners and suppliers:
-            - Who are the key partners?
-            - What resources are acquired from partners?
-            - What activities do partners perform?
-            - What strategic alliances might be formed?
-            
-            Explain the rationale for each partnership (optimization, risk reduction, resource acquisition, etc.).
-        </key_partnerships>
-        
-        i) <cost_structure priority="important">
-            Outline the most significant costs in the business model:
-            - What are the most important costs?
-            - Which key resources are most expensive?
-            - Which key activities are most expensive?
-            - Is the business cost-driven or value-driven?
-            
-            Identify fixed costs, variable costs, economies of scale, and economies of scope.
-            
-            Create a Mermaid.js diagram showing cost breakdown if appropriate.
-            Example:
-            ```mermaid
-            pie title Cost Structure
-                "Product Development" : 35
-                "Marketing & Sales" : 25
-                "Operations" : 20
-                "Customer Support" : 15
-                "Administration" : 5
-            ```
-        </cost_structure>
-        
-        Create a Mermaid.js diagram showing the complete Business Model Canvas.
-        Example:
-        ```mermaid
-        mindmap
-            root((Business Model Canvas))
-                Key Partners
-                Key Activities
-                Value Proposition
-                Customer Relationships
-                Customer Segments
-                Key Resources
-                Channels
-                Cost Structure
-                Revenue Streams
-        ```
-    </business_model_canvas>
+    ### 📊 Output Sections
 
-    <!-- Note: This is Part 1 of the module. Please continue with Part 2 -->
-</lLM_instructions>
+    1. **Business Model Design**
 
-## <next_steps>
-    <!-- Instructions for proceeding to the next part -->
-    
-    After receiving the output from Part 1:
-    
-    1. Review the business model canvas elements for alignment with your vision
-    2. Save the complete output (including all sections)
-    3. Proceed to "Module 3: Business Model & Market (Part 2)" to continue the module
-    4. After completing all parts, combine them before proceeding to Module 4
-</next_steps>
+       a) **Revenue Streams**
+          - Identify 3-5 primary revenue streams for this business
+          - For each revenue stream, provide:
+            - Description: [Detailed explanation of how revenue is generated]
+            - Target customer: [Who is paying]
+            - Price point strategy: [Price level and rationale]
+            - Frequency: [One-time, subscription, recurring, etc.]
+            - Volume potential: [Estimated transaction volume]
+            - Stability assessment: [How reliable/predictable is this stream]
 
-</business_model_market_module>
+       b) **Pricing Strategy**
+          - Develop a comprehensive pricing strategy for your main product/service offerings:
+            - Core tier pricing: [Price point and payment structure]
+            - Mid-tier pricing: [Price point and payment structure]
+            - Premium tier pricing: [Price point and payment structure]
+          
+          Explain the strategic rationale behind your pricing model. Consider:
+          - Value-based vs. cost-plus approach
+          - Market positioning (premium, competitive, economy)
+          - Psychological pricing tactics
+          - Discount and promotion strategy
+          - Price evolution over time
+
+2. **Business Model Canvas**
+
+   a) **Value Proposition**
+      - Articulate the core value proposition in 1-2 paragraphs:
+        - What specific value does the business deliver to customers?
+        - How does it solve their problems or meet their needs?
+        - What is the unique benefit that only this business can provide?
+
+   b) **Customer Segments**
+      - Define 2-3 primary customer segments for this business
+      - For each segment, detail:
+        - Demographics: [Age, location, income level, etc.]
+        - Psychographics: [Attitudes, values, interests, lifestyle]
+        - Behaviors: [Usage patterns, purchase habits, decision factors]
+        - Needs/pain points: [Specific problems they're trying to solve]
+
+   c) **Channels**
+      - Outline the primary channels for reaching customers:
+        - Acquisition channels: [How customers initially find you]
+        - Sales channels: [How customers purchase from you]
+        - Delivery channels: [How customers receive products/services]
+        - Support channels: [How customers get help or assistance]
+
+   d) **Customer Relationships**
+      - Define the relationship strategy with customers:
+        - Acquisition approach: [How you attract new customers]
+        - Retention strategy: [How you keep existing customers]
+        - Growth tactics: [How you increase customer value over time]
+
+   e) **Key Activities**
+      - Identify the 3-5 most critical activities the business must perform
+      - For each activity, explain:
+        - Why it's essential to delivering the value proposition
+        - How it creates competitive advantage
+        - Resources required to perform it effectively
+
+   f) **Key Resources**
+      - List the 3-5 most important resources required
+      - For each resource, specify:
+        - Type: [Physical, intellectual, human, financial]
+        - Acquisition approach: [Build, buy, lease, partner]
+        - Strategic importance: [Critical, important, supportive]
+
+   g) **Key Partners**
+      - Identify 3-5 essential partnerships and strategic alliances
+      - For each partnership, explain:
+        - Partnership type: [Supplier, distributor, joint venture, etc.]
+        - Value exchanged: [What each party gives and receives]
+        - Strategic rationale: [Why this partnership matters]
+
+   h) **Cost Structure**
+      - Outline the major cost categories for this business:
+        - Fixed costs: [Costs that remain constant regardless of volume]
+        - Variable costs: [Costs that scale with production/sales volume]
+        - Economies of scale: [How costs decrease with increased volume]
+      
+      Example diagram:
+      ```mermaid
+      mindmap
+          root((Business Model Canvas))
+              Key Partners
+                  Partner 1
+                  Partner 2
+              Key Activities
+                  Activity 1
+                  Activity 2
+              Value Proposition
+                  Benefit 1
+                  Benefit 2
+              Customer Relationships
+                  Approach 1
+                  Approach 2
+              Customer Segments
+                  Segment 1
+                  Segment 2
+              Key Resources
+                  Resource 1
+                  Resource 2
+              Channels
+                  Channel 1
+                  Channel 2
+              Cost Structure
+                  Cost 1
+                  Cost 2
+              Revenue Streams
+                  Stream 1
+                  Stream 2
+      ```
+
+3. **Market Analysis**
+   - Conduct a high-level analysis of the market opportunity:
+     - Market size and growth potential
+     - Key market trends and drivers
+     - Competitive landscape and positioning
+     - Target market share and projections
+   
+   Example diagram:
+   ```mermaid
+   quadrantChart
+       title Competitive Positioning
+       x-axis Low Market Share --> High Market Share
+       y-axis Low Product Quality --> High Product Quality
+       quadrant-1 "Opportunity Area"
+       quadrant-2 "Market Leaders"
+       quadrant-3 "Declining Segment"
+       quadrant-4 "Emerging Players"
+       "Competitor A": [0.7, 0.8]
+       "Competitor B": [0.5, 0.6]
+       "Our Business": [0.4, 0.7]
+       "Competitor C": [0.3, 0.4]
+       "Competitor D": [0.6, 0.3]
+   ```
+
+</div>
+
+<div style="border-left: 4px solid #22C55E; background-color: #F0FDF4; padding: 12px; margin: 20px 0;">
+
+## 🔜 Next Steps
+
+> **After receiving the business model output:**
+> 
+> 1. Review the business model elements for alignment with your vision
+> 2. Save the complete output (including all sections)
+> 3. Proceed to "Module 3: Business Model & Market (Part 2 of 3)" to continue
+> 4. After completing all parts, combine them before proceeding to Module 4
+
+</div>
+
