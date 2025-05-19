@@ -103,7 +103,7 @@ flowchart TD
     class Start,Complete startEnd;
     class ModulePrep phase;
     class Module0,Module1,Module2a,Module2b,Module3a,Module3b,Module3c,Module4a,Module4b,Module5a,Module5b,Module5c module;
-</details>
+```
 
 <div align="center">
 
