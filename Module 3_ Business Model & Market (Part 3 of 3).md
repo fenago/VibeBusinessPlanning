@@ -4,17 +4,118 @@
 ![Status: Ready For Input](https://img.shields.io/badge/Status-Ready_For_Input-22C55E?style=for-the-badge)
 ![Estimated Time: 60 Minutes](https://img.shields.io/badge/Estimated_Time-60_Minutes-F5A9B8?style=flat-square)
 
+<div style="border-left: 4px solid #5BCEFA; background-color: #E8F4FD; padding: 12px; margin-bottom: 20px;">
+
 ## 💱 Growth Strategy & Partnerships
 
-> [!NOTE]
 > In this final part of Module 3, you'll complete your business model by developing pricing strategies, partnership plans, and growth projections.
 
-### 💸 Module Purpose
+</div>
+
+### 🛰️ Module Purpose
 
 - 💲 **Pricing Strategy**: Develop a comprehensive pricing model for all offerings
 - 🤝 **Partnership Planning**: Identify key partnerships to accelerate growth
 - 📉 **Growth Modeling**: Create realistic and ambitious growth projections
 - 💵 **Revenue Forecasting**: Build detailed revenue models with multiple scenarios
+
+<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
+
+## 📂 Previous Module Output
+
+> **INSTRUCTIONS:** Paste the complete output from Module 3 (Parts 1 & 2) here
+
+</div>
+
+<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
+
+## 📝 User Input Section
+
+> **INSTRUCTIONS:** Complete the fields below with your pricing and partnership preferences. All fields are optional but helpful.
+
+### <span style="color: #3182CE;">Pricing Strategy Preferences</span>
+YOUR INPUT: [Add any specific preferences for your pricing approach]
+
+### <span style="color: #3182CE;">Partnership Opportunities</span>
+YOUR INPUT: [Note any specific partnership opportunities you'd like to explore]
+
+### <span style="color: #3182CE;">Revenue Projections</span>
+YOUR INPUT: [Include any revenue targets or timing considerations]
+
+</div>
+
+<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
+
+## 📓 LLM Instructions
+
+> **INSTRUCTIONS:** Complete the business model and market strategy from Parts 1 & 2
+
+### 🔝 Process
+
+1. Review the business model developed in Parts 1 & 2
+2. Focus on detailed pricing strategy, partnership planning, and growth projections
+3. Ensure all aspects align with the core business concept and value proposition
+4. Create realistic revenue projections with clear assumptions
+5. Identify specific partnership opportunities and growth strategies
+6. Use diagrams where appropriate to illustrate revenue models and growth plans
+
+### 📊 Output Sections (Continued)
+
+6. **Pricing Strategy**
+
+   a) **Value-Based Pricing Model**
+      - Develop a comprehensive pricing strategy for your products/services:
+        - Core product pricing: [Price point and structure]
+        - Mid-tier product pricing: [Price point and structure]
+        - Premium product pricing: [Price point and structure]
+      
+      For each offering, explain:
+      - Value perception alignment: [How pricing reflects perceived value]
+      - Competitive positioning: [How pricing compares to alternatives]
+      - Psychological factors: [Price point psychology considerations]
+
+   b) **Pricing Optimization**
+      - Identify strategies for optimizing pricing:
+        - Tiered pricing structure: [How tiers are structured]
+        - Bundling options: [What elements are bundled and why]
+        - Discount strategy: [When and how discounts are applied]
+        - Price evolution: [How pricing may change over time]
+
+7. **Partnership Strategy**
+
+   a) **Strategic Partners**
+      - Identify 3-5 key potential strategic partners
+      - For each partnership, detail:
+        - Partner profile: [Description of ideal partner]
+        - Value exchange: [What each partner gives and receives]
+        - Implementation approach: [How to establish the partnership]
+        - Success metrics: [How to measure partnership effectiveness]
+
+   b) **Partnership Roadmap**
+      - Create a timeline for partnership development:
+        - Initial partnerships (0-6 months)
+        - Mid-term partnerships (6-18 months)
+        - Long-term partnerships (18+ months)
+      
+      Example diagram:
+      ```mermaid
+      gantt
+          title Partnership Development Timeline
+          dateFormat YYYY-Q[Q]
+          
+          section Initial Partners
+          Partner A    :a1, 2023-Q3, 2Q
+          Partner B    :a2, 2023-Q4, 2Q
+          
+          section Mid-term Partners
+          Partner C    :a3, 2024-Q2, 2Q
+          Partner D    :a4, 2024-Q3, 2Q
+          
+          section Long-term Partners
+          Partner E    :a5, 2025-Q1, 2Q
+      ```
+
+</div>
 
 <!-- 
 INSTRUCTIONS FOR USER:
@@ -61,219 +162,81 @@ INSTRUCTIONS FOR USER:
         c) <bargaining_power_of_buyers priority="important">
             Analyze how much power customers have:
             - Number of customers
-            - Size of purchases
-            - Switching costs
-            - Price sensitivity
-            - Threat of backward integration
-            
-            Rate as high/medium/low and explain the rationale.
-        </bargaining_power_of_buyers>
-        
-        d) <threat_of_substitute_products priority="important">
-            Analyze the availability of alternative solutions:
-            - Availability of substitutes
-            - Switching costs
-            - Relative price performance
-            - Propensity to substitute
-            
-            Rate as high/medium/low and explain the rationale.
-        </threat_of_substitute_products>
-        
-        e) <rivalry_among_existing_competitors priority="important">
-            Analyze the intensity of competition:
-            - Number of competitors
-            - Industry growth
-            - Fixed costs
-            - Product differentiation
-            - Exit barriers
-            
-            Rate as high/medium/low and explain the rationale.
-        </rivalry_among_existing_competitors>
-        
-        Create a Mermaid.js diagram showing Porter's Five Forces.
-        Example:
-        ```mermaid
-        flowchart TD
-            A[Industry Rivalry] --- B[Threat of New Entrants]
-            A --- C[Bargaining Power of Suppliers]
-            A --- D[Bargaining Power of Buyers]
-            A --- E[Threat of Substitutes]
-            style A fill:#f9f,stroke:#333,stroke-width:2px
-        ```
-    </porters_five_forces>
-    
-    6. <tows_matrix priority="important">
-        Develop strategic options using TOWS matrix:
-        
-        a) <so_strategies priority="important">
-            Identify 1-2 strategies that use Strengths to capitalize on Opportunities:
-            - Which strengths can help capture which opportunities?
-            - How can internal advantages be leveraged for external possibilities?
-        </so_strategies>
-        
-        b) <wo_strategies priority="important">
-            Identify 1-2 strategies that overcome Weaknesses by taking advantage of Opportunities:
-            - Which opportunities can help address weaknesses?
-            - How can external possibilities compensate for internal disadvantages?
-        </wo_strategies>
-        
-        c) <st_strategies priority="important">
-            Identify 1-2 strategies that use Strengths to avoid Threats:
-            - Which strengths can help mitigate which threats?
-            - How can internal advantages protect against external challenges?
-        </st_strategies>
-        
-        d) <wt_strategies priority="important">
-            Identify 1-2 strategies that minimize Weaknesses and avoid Threats:
-            - How can weaknesses be reduced to minimize vulnerability to threats?
-            - What defensive approaches are needed given internal disadvantages?
-        </wt_strategies>
-        
-        Create a Mermaid.js diagram showing the TOWS matrix.
-        Example:
-        ```mermaid
-        classDiagram
-            class "SO Strategies" {
-                +Use strength A to capture opportunity X
-                +Use strength B to capture opportunity Y
-            }
-            class "WO Strategies" {
-                +Address weakness C through opportunity X
-                +Address weakness D through opportunity Z
-            }
-            class "ST Strategies" {
-                +Use strength A to avoid threat M
-                +Use strength B to avoid threat N
-            }
-            class "WT Strategies" {
-                +Minimize weakness C to avoid threat M
-                +Minimize weakness D to avoid threat N
-            }
-        ```
-    </tows_matrix>
-    
-    7. <bcg_matrix priority="important">
-        Classify offerings using the BCG matrix:
-        
-        a) <stars priority="important">
-            Identify products/services with high growth and high market share:
-            - Which offerings have strong market position in growing segments?
-            - What resources are needed to maintain their position?
-            - What is their expected evolution?
-        </stars>
-        
-        b) <cash_cows priority="important">
-            Identify products/services with low growth but high market share:
-            - Which offerings generate reliable revenue in mature segments?
-            - How can they be optimized for maximum profitability?
-            - How should their cash flow be reinvested?
-        </cash_cows>
-        
-        c) <question_marks priority="important">
-            Identify products/services with high growth but low market share:
-            - Which offerings have potential but uncertain prospects?
-            - What investment decisions are needed for these offerings?
-            - Which ones should be developed further vs. abandoned?
-        </question_marks>
-        
-        d) <dogs priority="important">
-            Identify products/services with low growth and low market share:
-            - Which offerings are underperforming in stagnant segments?
-            - Should they be divested, repositioned, or maintained?
-            - What resources could be reallocated from these offerings?
-        </dogs>
-        
-        Create a Mermaid.js diagram showing the BCG matrix.
-        Example:
-        ```mermaid
-        quadrantChart
-            title BCG Matrix
-            x-axis Low Market Share --> High Market Share
-            y-axis Low Growth --> High Growth
-            quadrant-1 Stars
-            quadrant-2 Question Marks
-            quadrant-3 Cash Cows
-            quadrant-4 Dogs
-            "Product A": [0.7, 0.7]
-            "Product B": [0.3, 0.6]
-            "Product C": [0.6, 0.3]
-            "Product D": [0.3, 0.2]
-        ```
-    </bcg_matrix>
-    
-    8. <ansoff_matrix priority="important">
-        Identify growth strategies using the Ansoff matrix:
-        
-        a) <market_penetration priority="important">
-            Strategies for existing products in existing markets:
-            - How can market share be increased with current offerings?
-            - What approaches can deepen engagement with current customers?
-            - What pricing or promotion strategies might be effective?
-        </market_penetration>
-        
-        b) <product_development priority="important">
-            Strategies for new products in existing markets:
-            - What new offerings would appeal to current customers?
-            - How can customer insights inform product development?
-            - What extensions or enhancements make sense?
-        </product_development>
-        
-        c) <market_development priority="important">
-            Strategies for existing products in new markets:
-            - What new customer segments could be targeted?
-            - What geographic expansions are possible?
-            - How might current offerings be repositioned?
-        </market_development>
-        
-        d) <diversification priority="important">
-            Strategies for new products in new markets:
-            - What opportunities exist beyond current business scope?
-            - What related or unrelated diversification makes sense?
-            - What capabilities could transfer to new areas?
-        </diversification>
-        
-        Recommend primary and secondary growth strategies with rationale.
-        
-        Create a Mermaid.js diagram showing the Ansoff matrix.
-        Example:
-        ```mermaid
-        quadrantChart
-            title Ansoff Matrix
-            x-axis Existing Products --> New Products
-            y-axis Existing Markets --> New Markets
-            quadrant-1 Product Development
-            quadrant-2 Diversification
-            quadrant-3 Market Penetration
-            quadrant-4 Market Development
-            "Strategy 1": [0.2, 0.3]
-            "Strategy 2": [0.7, 0.3]
-            "Strategy 3": [0.3, 0.7]
-            "Strategy 4": [0.7, 0.7]
-        ```
-    </ansoff_matrix>
-    
-    9. <business_model_market_summary priority="essential">
-        Synthesize all the above elements into a cohesive 3-4 paragraph summary.
-        This should provide a comprehensive yet concise overview of the business model and market opportunity.
-        Highlight key strengths and opportunities while acknowledging challenges.
-        Conclude with an assessment of overall viability and potential for success.
-    </business_model_market_summary>
-    
-    Format your output as a well-structured Markdown document with clear headings and subheadings. Use bullet points, tables, and emphasis where appropriate to enhance readability. Include Mermaid.js diagrams where they add value to visualize concepts.
-    
-    Important: Ensure all elements are coherent with each other and with previous modules. Focus on practical business operations rather than theoretical frameworks. Be realistic in your market assessment while identifying genuine opportunities.
-</lLM_instructions_final>
 
-## <next_steps>
-    <!-- Instructions for proceeding to the next module -->
-    
-    After receiving the output from Part 3:
-    
-    1. Review the complete business model and market analysis for alignment with your vision
-    2. Combine the outputs from Parts 1, 2, and 3 into a single document
-    3. Save the complete combined output
-    4. Proceed to "Module 4: Implementation & Financials" and paste this combined output where indicated
-    5. The complete business model and market analysis will inform your implementation plan and financial projections
-</next_steps>
+8. **Growth Strategy**
 
-</business_model_market_module_final>
+   a) **Growth Projections**
+      - Create detailed revenue projections for the first 3 years:
+        - Year 1: [Revenue targets by quarter or month]
+        - Year 2: [Revenue targets by quarter or month]
+        - Year 3: [Revenue targets by quarter or month]
+      
+      Include key assumptions underlying these projections
+      
+      Example diagram:
+      ```mermaid
+      %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#5D8AA8'}}}%%
+      xychart-beta
+          title "Revenue Projection (3 Years)"
+          x-axis ["Q1 Y1", "Q2 Y1", "Q3 Y1", "Q4 Y1", "Q1 Y2", "Q2 Y2", "Q3 Y2", "Q4 Y2", "Q1 Y3", "Q2 Y3", "Q3 Y3", "Q4 Y3"]
+          y-axis "Revenue ($K)" 0 --> 500
+          bar [50, 75, 90, 120, 150, 190, 250, 300, 320, 380, 420, 500]
+      ```
+
+   b) **Growth Levers**
+      - Identify 3-5 primary drivers of business growth
+      - For each growth driver, detail:
+        - Impact potential: [Estimated effect on growth]
+        - Implementation approach: [How to activate this lever]
+        - Resource requirements: [What's needed to execute]
+        - Timeline: [When to implement and expected results]
+
+   c) **Scaling Strategy**
+      - Detail the approach to scaling the business:
+        - Market expansion: [New geographic or demographic targets]
+        - Product expansion: [New offerings or features]
+        - Channel expansion: [New ways to reach customers]
+        - Operational scaling: [How to scale operations efficiently]
+
+   d) **Growth Milestones**
+      - Define key business milestones and success metrics
+      - For each milestone:
+        - Success metrics: [How progress will be measured]
+        - Dependencies: [What must happen first]
+      
+      Example diagram:
+      ```mermaid
+      timeline
+          title Business Growth Milestones
+          section Year 1
+            Launch MVP : Initial product release
+            First 100 customers : Market validation
+          section Year 2
+            $1M ARR : Revenue milestone
+            Expand to 2nd market : Geographic expansion
+          section Year 3
+            Launch 2nd product line : Product expansion
+            Series A funding : Growth capital
+      ```
+
+9. **Business Model Summary**
+   - Synthesize all elements into a cohesive business model summary
+   - Highlight the most distinctive aspects of the business model
+   - Address how this business model creates sustainable competitive advantage
+   - Explain how all components work together to create a viable business
+
+</div>
+
+<div style="border-left: 4px solid #22C55E; background-color: #F0FDF4; padding: 12px; margin: 20px 0;">
+
+## 🔜 Next Steps
+
+> **After completing the business model:**
+> 
+> 1. Review the complete business model for alignment with your vision
+> 2. Combine the outputs from Parts 1, 2, and 3 into a single document
+> 3. Save the complete combined output
+> 4. Proceed to "Module 4: Implementation" 
+> 5. The complete business model will inform your implementation planning
+
+</div>
