@@ -103,12 +103,6 @@ flowchart TD
     class Start,Complete startEnd;
     class ModulePrep phase;
     class Module0,Module1,Module2a,Module2b,Module3a,Module3b,Module3c,Module4a,Module4b,Module5a,Module5b,Module5c module;
-
-    %% Tooltip Information
-    click Module0 "javascript:alert('Module 0: Intelligence gathering for market research')" "Research Phase"
-    click Module1 "javascript:alert('Module 1: Define your core business identity')" "Core Business Concept"
-    click Module2a "javascript:alert('Module 2, Part 1: Develop your solution strategy')" "Solution Strategy"
-    click Complete "javascript:alert('Congratulations! Your business plan is ready for implementation')" "Complete Plan"
 </details>
 
 <div align="center">
