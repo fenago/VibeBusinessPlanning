@@ -1,4 +1,20 @@
-# Module 1: Core Business Concept
+<div align="center">
+
+# 💡 Module 1: Core Business Concept
+
+[![Phase](https://img.shields.io/badge/Phase-Foundation-5BCEFA?style=for-the-badge)](https://github.com/fenago/VibeBusinessPlanning)
+[![Status](https://img.shields.io/badge/Status-Ready_For_Input-22C55E?style=for-the-badge)](https://github.com/fenago/VibeBusinessPlanning)
+
+<img src="https://img.shields.io/badge/Estimated_Time-60_Minutes-F5A9B8?style=flat-square" alt="Time Estimate">
+
+</div>
+
+<div style="background: linear-gradient(135deg, #FFF6E9 0%, #FFF9F2 100%); padding: 20px; border-radius: 10px; margin: 20px 0; border-left: 5px solid #F59E0B;">
+
+## 🌟 Overview
+This module focuses on defining your core business concept based on research findings. You'll clarify your value proposition, mission, vision, and strategic positioning.
+
+</div>
 
 <!-- 
 INSTRUCTIONS FOR USER:

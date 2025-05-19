@@ -1,4 +1,20 @@
-# Module 3: Business Model & Market (Part 2 of 3)
+<div align="center">
+
+# 📈 Module 3: Business Model & Market (Part 2 of 3)
+
+[![Phase](https://img.shields.io/badge/Phase-Market_Modeling-5BCEFA?style=for-the-badge)](https://github.com/fenago/VibeBusinessPlanning)
+[![Status](https://img.shields.io/badge/Status-Ready_For_Input-22C55E?style=for-the-badge)](https://github.com/fenago/VibeBusinessPlanning)
+
+<img src="https://img.shields.io/badge/Estimated_Time-60_Minutes-F5A9B8?style=flat-square" alt="Time Estimate">
+
+</div>
+
+<div style="background: linear-gradient(135deg, #F0FFF4 0%, #E6FFEC 100%); padding: 20px; border-radius: 10px; margin: 20px 0; border-left: 5px solid #10B981;">
+
+## 💸 Overview
+In this second part of Module 3, you'll develop your market entry strategy and refine your competitive positioning to ensure market success.
+
+</div>
 
 <!-- 
 INSTRUCTIONS FOR USER:
