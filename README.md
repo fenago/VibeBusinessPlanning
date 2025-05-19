@@ -1,21 +1,23 @@
 <div align="center">
 
-# 🚀 VIBE BUSINESS PLANNING SYSTEM
+# 🚀 VIBE BUSINESS PLANNING SYSTEM 🚀
 
-[![Modules](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffenago%2FVibeBusinessPlanning%2Fmain%2Fstatus.json&query=%24.modules&label=Modules&color=5BCEFA&style=for-the-badge&logo=github&logoColor=white)](https://github.com/fenago/VibeBusinessPlanning)
+[![Modules](https://img.shields.io/badge/Modules-5_Integrated_Components-5BCEFA?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fenago/VibeBusinessPlanning)
 [![Framework](https://img.shields.io/badge/Framework-Enterprise_Grade-F5A9B8?style=for-the-badge&logo=blueprint&logoColor=white)](https://github.com/fenago/VibeBusinessPlanning)
-[![Status](https://img.shields.io/badge/Status-Production_Ready-5BCEFA?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/fenago/VibeBusinessPlanning)
+[![Status](https://img.shields.io/badge/Status-Production_Ready-22C55E?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/fenago/VibeBusinessPlanning)
 
 <br>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/507615/90595977-95e70e80-e220-11ea-864a-6a61adaff212.png" width="70%">
+  <img src="VibeBusiness.png" width="75%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);">
 </p>
 
+<h2>
+  💡 Transform Your Business Vision Into Reality 💡
+</h2>
+
 <h3>
-  <span style="background: linear-gradient(to right, #5BCEFA, #F5A9B8, #FFFFFF, #F5A9B8, #5BCEFA); -webkit-background-clip: text; color: transparent; font-weight: 600;">
-    Transform Your Business Vision Into Reality With Our Enterprise-Grade Planning Framework
-  </span>
+  <em>Enterprise-Grade Planning Framework for Visionary Entrepreneurs</em>
 </h3>
 
 > [!TIP]
