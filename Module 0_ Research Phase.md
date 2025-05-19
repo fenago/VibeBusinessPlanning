@@ -1,20 +1,11 @@
-<div align="center">
-
 # 📊 Module 0: Research Phase
 
-[![Phase](https://img.shields.io/badge/Phase-Research-5BCEFA?style=for-the-badge)](https://github.com/fenago/VibeBusinessPlanning)
-[![Status](https://img.shields.io/badge/Status-Ready_For_Input-22C55E?style=for-the-badge)](https://github.com/fenago/VibeBusinessPlanning)
+![Phase: Research](https://img.shields.io/badge/Phase-Research-5BCEFA?style=for-the-badge)
+![Status: Ready For Input](https://img.shields.io/badge/Status-Ready_For_Input-22C55E?style=for-the-badge)
+![Estimated Time: 45 Minutes](https://img.shields.io/badge/Estimated_Time-45_Minutes-F5A9B8?style=flat-square)
 
-<img src="https://img.shields.io/badge/Estimated_Time-45_Minutes-F5A9B8?style=flat-square" alt="Time Estimate">
-
-</div>
-
-<div style="background: linear-gradient(135deg, #E9F6FF 0%, #F2F7FF 100%); padding: 20px; border-radius: 10px; margin: 20px 0; border-left: 5px solid #0288D1;">
-
-## 🔍 Overview
-This is the first module in the Vibe Business Planning System. Here, you'll provide basic information about your business idea to generate comprehensive market research that will inform later modules.
-
-</div>
+> 🔍 **Overview**  
+> This is the first module in the Vibe Business Planning System. Here, you'll provide basic information about your business idea to generate comprehensive market research that will inform later modules.
 
 <!-- 
 INSTRUCTIONS FOR USER:

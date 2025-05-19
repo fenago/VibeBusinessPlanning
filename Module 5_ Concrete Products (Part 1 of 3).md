@@ -1,20 +1,11 @@
-<div align="center">
-
 # 🏆 Module 5: Concrete Products (Part 1 of 3)
 
-[![Phase](https://img.shields.io/badge/Phase-Go_To_Market-5BCEFA?style=for-the-badge)](https://github.com/fenago/VibeBusinessPlanning)
-[![Status](https://img.shields.io/badge/Status-Ready_For_Input-22C55E?style=for-the-badge)](https://github.com/fenago/VibeBusinessPlanning)
+![Phase: Go To Market](https://img.shields.io/badge/Phase-Go_To_Market-5BCEFA?style=for-the-badge)
+![Status: Ready For Input](https://img.shields.io/badge/Status-Ready_For_Input-22C55E?style=for-the-badge)
+![Estimated Time: 90 Minutes](https://img.shields.io/badge/Estimated_Time-90_Minutes-F5A9B8?style=flat-square)
 
-<img src="https://img.shields.io/badge/Estimated_Time-90_Minutes-F5A9B8?style=flat-square" alt="Time Estimate">
-
-</div>
-
-<div style="background: linear-gradient(135deg, #FDF2F8 0%, #FCE7F3 100%); padding: 20px; border-radius: 10px; margin: 20px 0; border-left: 5px solid #DB2777;">
-
-## 🔥 Overview
-In this first part of Module 5, you'll begin defining your concrete product specifications, marketing materials, and launch strategy.
-
-</div>
+> 🔥 **Overview**  
+> In this first part of Module 5, you'll begin defining your concrete product specifications, marketing materials, and launch strategy.
 
 <!-- 
 INSTRUCTIONS FOR USER:
