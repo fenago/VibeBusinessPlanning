@@ -1,13 +1,10 @@
-# 📊 Module 0: Research Phase 📊
+# Module 0: Research Phase
 
-![Phase: Research](https://img.shields.io/badge/Phase-Research-5BCEFA?style=for-the-badge)
-![Status: Ready For Input](https://img.shields.io/badge/Status-Ready_For_Input-22C55E?style=for-the-badge)
-![Estimated Time: 45 Minutes](https://img.shields.io/badge/Estimated_Time-45_Minutes-F5A9B8?style=flat-square)
+**PHASE:** RESEARCH | **STATUS:** READY FOR INPUT | **Estimated Time:** 45 Minutes
 
-## 🌌 Business Intelligence Gathering
+## Business Intelligence Gathering
 
-> [!NOTE]
-> This is the first module in the Vibe Business Planning System. Here, you'll provide basic information about your business idea to generate comprehensive market research that will inform later modules.
+*This is the first module in the Vibe Business Planning System. Here, you'll provide basic information about your business idea to generate comprehensive market research that will inform later modules.*
 
 ### 🔍 Module Purpose
 
