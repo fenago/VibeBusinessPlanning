@@ -146,35 +146,35 @@ YOUR INPUT: [Describe which aspects of your business you'd most like to monetize
       
       Example diagram:
       ```mermaid
-      mindmap
-          root((Business Model Canvas))
-              Key Partners
-                  Partner 1
-                  Partner 2
-              Key Activities
-                  Activity 1
-                  Activity 2
-              Value Proposition
-                  Benefit 1
-                  Benefit 2
-              Customer Relationships
-                  Approach 1
-                  Approach 2
-              Customer Segments
-                  Segment 1
-                  Segment 2
-              Key Resources
-                  Resource 1
-                  Resource 2
-              Channels
-                  Channel 1
-                  Channel 2
-              Cost Structure
-                  Cost 1
-                  Cost 2
-              Revenue Streams
-                  Stream 1
-                  Stream 2
+      flowchart TD
+          BMC[Business Model Canvas] --> KP[Key Partners]
+          BMC --> KA[Key Activities]
+          BMC --> VP[Value Proposition]
+          BMC --> CR[Customer Relationships]
+          BMC --> CS[Customer Segments]
+          BMC --> KR[Key Resources]
+          BMC --> CH[Channels]
+          BMC --> CO[Cost Structure]
+          BMC --> RS[Revenue Streams]
+          
+          KP --> KP1[Partner 1]
+          KP --> KP2[Partner 2]
+          KA --> KA1[Activity 1]
+          KA --> KA2[Activity 2]
+          VP --> VP1[Benefit 1]
+          VP --> VP2[Benefit 2]
+          CR --> CR1[Approach 1]
+          CR --> CR2[Approach 2]
+          CS --> CS1[Segment 1]
+          CS --> CS2[Segment 2]
+          KR --> KR1[Resource 1]
+          KR --> KR2[Resource 2]
+          CH --> CH1[Channel 1]
+          CH --> CH2[Channel 2]
+          CO --> CO1[Cost 1]
+          CO --> CO2[Cost 2]
+          RS --> RS1[Stream 1]
+          RS --> RS2[Stream 2]
       ```
 
 3. **Market Analysis**
@@ -188,8 +188,8 @@ YOUR INPUT: [Describe which aspects of your business you'd most like to monetize
    ```mermaid
    quadrantChart
        title Competitive Positioning
-       x-axis Low Market Share -->  High Market Share
-       y-axis Low Product Quality -->  High Product Quality
+       x-axis Low Market Share --> High Market Share
+       y-axis Low Product Quality --> High Product Quality
        quadrant-1 "Opportunity Area"
        quadrant-2 "Market Leaders"
        quadrant-3 "Declining Segment"
@@ -208,11 +208,11 @@ YOUR INPUT: [Describe which aspects of your business you'd most like to monetize
 ## 🔜 Next Steps
 
 > **After receiving the business model output:**
-> **Note:** 
-> **Note:** 1. Review the business model elements for alignment with your vision
-> **Note:** 2. Save the complete output (including all sections)
-> **Note:** 3. Proceed to "Module 3: Business Model & Market (Part 2 of 3)" to continue
-> **Note:** 4. After completing all parts, combine them before proceeding to Module 4
+> 
+> 1. Review the business model elements for alignment with your vision
+> 2. Save the complete output (including all sections)
+> 3. Proceed to "Module 3: Business Model & Market (Part 2 of 3)" to continue
+> 4. After completing all parts, combine them before proceeding to Module 4
 
 
 
