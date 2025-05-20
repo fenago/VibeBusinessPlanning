@@ -62,12 +62,12 @@ Create a diagram showing the industry structure and where this business fits. Ex
 
 ```mermaid
 flowchart TD
-    A[Industry Name] --> **Note:** B[Segment 1]
-    A --> **Note:** C[Segment 2]
-    A --> **Note:** D[Segment 3]
-    B --> **Note:** E[Competitor 1]
-    B --> **Note:** F[Your Business]
-    C --> **Note:** G[Competitor 2]
+    A[Industry Name] --> B[Segment 1]
+    A --> C[Segment 2]
+    A --> D[Segment 3]
+    B --> E[Competitor 1]
+    B --> F[Your Business]
+    C --> G[Competitor 2]
 ```
 
 

@@ -141,10 +141,10 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
       Example diagram:
       ```mermaid
       flowchart LR
-          A[Milestone 1] --> **Note:** B[Milestone 2]
-          B --> **Note:** C[Milestone 3]
-          C --> **Note:** D[Milestone 4]
-          D --> **Note:** E[Final Outcome]
+          A[Milestone 1] --> B[Milestone 2]
+          B --> C[Milestone 3]
+          C --> D[Milestone 4]
+          D --> E[Final Outcome]
       ```
         
    d) **Unique Advantages**
@@ -240,12 +240,12 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
             Example:
             ```mermaid
             flowchart TD
-                A[New Customer] --> **Note:** B[Core Product]
-                B --> **Note:** C[Mid-Tier Product]
-                C --> **Note:** D[Premium Product]
-                B -.-> **Note:** E[Churn]
-                C -.-> **Note:** E
-                D -.-> **Note:** F[Advocacy]
+                A[New Customer] --> B[Core Product]
+                B --> C[Mid-Tier Product]
+                C --> D[Premium Product]
+                B -.-> E[Churn]
+                C -.-> E
+                D -.-> F[Advocacy]
                 subgraph "Value Ladder"
                 B
                 C

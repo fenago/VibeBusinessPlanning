@@ -88,8 +88,8 @@ b) **Acquisition Channels**
    %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#5D8AA8'}}}%%
    xychart-beta
        title "Channel Effectiveness Comparison"
-       x-axis "Cost Per Acquisition ($)" 0 --> **Note:** 100
-       y-axis "Conversion Rate (%)" 0 --> **Note:** 10
+       x-axis "Cost Per Acquisition ($)" 0 --> 100
+       y-axis "Conversion Rate (%)" 0 --> 10
        bubble [50, 5, 20, "SEO"]
        bubble [80, 7, 15, "PPC"]
        bubble [30, 3, 25, "Email"]
@@ -108,19 +108,19 @@ c) **Acquisition Funnel**
    Example acquisition funnel:
    ```mermaid
    flowchart TD
-       A[Market] --> **Note:** B[Visitors]
-       B --> **Note:** C[Leads]
-       C --> **Note:** D[Qualified Leads]
-       D --> **Note:** E[Opportunities]
-       E --> **Note:** F[Customers]
-       F --> **Note:** G[Advocates]
+       A[Market] --> B[Visitors]
+       B --> C[Leads]
+       C --> D[Qualified Leads]
+       D --> E[Opportunities]
+       E --> F[Customers]
+       F --> G[Advocates]
        
-       A --Targeting--> **Note:** B
-       B --Lead Magnet--> **Note:** C
-       C --Qualification--> **Note:** D
-       D --Proposal--> **Note:** E
-       E --Conversion--> **Note:** F
-       F --Loyalty Program--> **Note:** G
+       A --Targeting--> B
+       B --Lead Magnet--> C
+       C --Qualification--> D
+       D --Proposal--> E
+       E --Conversion--> F
+       F --Loyalty Program--> G
    ```
 
 ### 2. Marketing Campaigns
@@ -221,16 +221,16 @@ b) **Onboarding Process**
    Example onboarding flow:
    ```mermaid
    flowchart LR
-       A[Purchase] --> **Note:** B[Welcome Email]
-       B --> **Note:** C[Account Setup]
-       C --> **Note:** D[Product Tour]
-       D --> **Note:** E[First Success]
-       E --> **Note:** F[Follow-up Check-in]
-       F --> **Note:** G[Upsell Opportunity]
+       A[Purchase] --> B[Welcome Email]
+       B --> C[Account Setup]
+       C --> D[Product Tour]
+       D --> E[First Success]
+       E --> F[Follow-up Check-in]
+       F --> G[Upsell Opportunity]
        
-       C -.-> **Note:** H[Help Resources]
-       D -.-> **Note:** H
-       E -.-> **Note:** H
+       C -.-> H[Help Resources]
+       D -.-> H
+       E -.-> H
    ```
 
 c) **Retention Strategy**

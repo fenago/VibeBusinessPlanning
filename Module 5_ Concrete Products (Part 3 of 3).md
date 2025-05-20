@@ -151,12 +151,12 @@ a) **Feedback Collection System**
    Example feedback loop:
    ```mermaid
    flowchart LR
-       A[Collect Feedback] --> **Note:** B[Analyze Trends]
-       B --> **Note:** C[Prioritize Changes]
-       C --> **Note:** D[Implement Solutions]
-       D --> **Note:** E[Validate Results]
-       E --> **Note:** F[Communicate Changes]
-       F --> **Note:** A
+       A[Collect Feedback] --> B[Analyze Trends]
+       B --> C[Prioritize Changes]
+       C --> D[Implement Solutions]
+       D --> E[Validate Results]
+       E --> F[Communicate Changes]
+       F --> A
    ```
 
 b) **Feedback Analysis Framework**

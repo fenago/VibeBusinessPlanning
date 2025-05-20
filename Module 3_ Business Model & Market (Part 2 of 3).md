@@ -71,8 +71,8 @@ YOUR INPUT: [Note any timing constraints or preferences for market entry]
       Example diagram:
       ```mermaid
       graph TD
-          A[Total Addressable Market: $Xb] --> **Note:** B[Serviceable Available Market: $Ym]
-          B --> **Note:** C[Serviceable Obtainable Market: $Zm]
+          A[Total Addressable Market: $Xb] --> B[Serviceable Available Market: $Ym]
+          B --> C[Serviceable Obtainable Market: $Zm]
           style A fill:#f9f,stroke:#333,stroke-width:2px
           style B fill:#bbf,stroke:#333,stroke-width:2px
           style C fill:#bfb,stroke:#333,stroke-width:2px
@@ -102,8 +102,8 @@ YOUR INPUT: [Note any timing constraints or preferences for market entry]
       ```mermaid
       quadrantChart
           title Competitive Positioning
-          x-axis Low Price --> **Note:** High Price
-          y-axis Low Quality --> **Note:** High Quality
+          x-axis Low Price --> High Price
+          y-axis Low Quality --> High Quality
           quadrant-1 Premium
           quadrant-2 Overpriced
           quadrant-3 Budget
@@ -219,10 +219,10 @@ YOUR INPUT: [Note any timing constraints or preferences for market entry]
             H[Marketing & Sales]
             I[Service]
             end
-            E --> **Note:** F
-            F --> **Note:** G
-            G --> **Note:** H
-            H --> **Note:** I
+            E --> F
+            F --> G
+            G --> H
+            H --> I
         ```
     </value_chain_analysis>
     

@@ -78,15 +78,15 @@ a) **Core Operations Framework**
    Example diagram:
    ```mermaid
    flowchart TB
-       CEO[CEO/Founder] --> **Note:** COO[COO/Operations]  
-       CEO --> **Note:** CTO[CTO/Technical]  
-       CEO --> **Note:** CMO[CMO/Marketing]  
-       COO --> **Note:** CS[Customer Support]  
-       COO --> **Note:** LOG[Logistics]  
-       CTO --> **Note:** DEV[Development]  
-       CTO --> **Note:** IT[IT Infrastructure]  
-       CMO --> **Note:** MKT[Marketing] 
-       CMO --> **Note:** SALES[Sales]  
+       CEO[CEO/Founder] --> COO[COO/Operations]  
+       CEO --> CTO[CTO/Technical]  
+       CEO --> CMO[CMO/Marketing]  
+       COO --> CS[Customer Support]  
+       COO --> LOG[Logistics]  
+       CTO --> DEV[Development]  
+       CTO --> IT[IT Infrastructure]  
+       CMO --> MKT[Marketing] 
+       CMO --> SALES[Sales]  
    ```
 
 b) **Systems & Process Map**

@@ -92,10 +92,10 @@ YOUR INPUT: [Confirm or update your business description based on research insig
    
    ```mermaid
    graph LR
-       A[Customer Need] --> **Note:** B[Your Solution]
-       B --> **Note:** C[Key Benefit 1]
-       B --> **Note:** D[Key Benefit 2]
-       B --> **Note:** E[Key Benefit 3]
+       A[Customer Need] --> B[Your Solution]
+       B --> C[Key Benefit 1]
+       B --> D[Key Benefit 2]
+       B --> E[Key Benefit 3]
    ```
 
 5. **Inspiration Sources**
@@ -117,12 +117,12 @@ YOUR INPUT: [Confirm or update your business description based on research insig
        Example:
        ```mermaid
        flowchart LR
-           A[Awareness] --> **Note:** B[Consideration]
-           B --> **Note:** C[Decision]
-           C --> **Note:** D[Onboarding]
-           D --> **Note:** E[Usage]
-           E --> **Note:** F[Retention]
-           F --> **Note:** G[Advocacy]
+           A[Awareness] --> B[Consideration]
+           B --> C[Decision]
+           C --> D[Onboarding]
+           D --> E[Usage]
+           E --> F[Retention]
+           F --> G[Advocacy]
        ```
 
     7. **Core Differentiators**
@@ -138,12 +138,12 @@ YOUR INPUT: [Confirm or update your business description based on research insig
        Example:
        ```mermaid
        flowchart LR
-           A[Customer Need 1] --> **Note:** D1[Differentiator 1]
-           B[Customer Need 2] --> **Note:** D2[Differentiator 2]
-           C[Customer Need 3] --> **Note:** D3[Differentiator 3]
-           D1 --> **Note:** V[Value Proposition]
-           D2 --> **Note:** V
-           D3 --> **Note:** V
+           A[Customer Need 1] --> D1[Differentiator 1]
+           B[Customer Need 2] --> D2[Differentiator 2]
+           C[Customer Need 3] --> D3[Differentiator 3]
+           D1 --> V[Value Proposition]
+           D2 --> V
+           D3 --> V
        ```
 
     8. **Avatar Analysis**

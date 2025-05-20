@@ -188,8 +188,8 @@ YOUR INPUT: [Describe which aspects of your business you'd most like to monetize
    ```mermaid
    quadrantChart
        title Competitive Positioning
-       x-axis Low Market Share --> **Note:** High Market Share
-       y-axis Low Product Quality --> **Note:** High Product Quality
+       x-axis Low Market Share --> High Market Share
+       y-axis Low Product Quality --> High Product Quality
        quadrant-1 "Opportunity Area"
        quadrant-2 "Market Leaders"
        quadrant-3 "Declining Segment"
