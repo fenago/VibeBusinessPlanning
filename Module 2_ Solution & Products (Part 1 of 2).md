@@ -240,12 +240,12 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
             Example:
             ```mermaid
 flowchart TD
-    A[New Customer] --> B[Core Product]
-    B --> C[Mid-Tier Product]
-    C --> D[Premium Product]
+    A[Customer] --> B[Basic]
+    B --> C[Standard]
+    C --> D[Premium]
     B -.-> E[Churn]
     C -.-> E
-    D -.-> F[Advocacy]
+    D -.-> F[Advocate]
     subgraph "Value Ladder"
     B
     C
