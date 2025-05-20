@@ -237,8 +237,8 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
             Format as a clear progression model with logical transitions.
             
             Create a Mermaid.js diagram showing the product ladder and customer ascension.
-            Example:
-            ```mermaid
+
+```mermaid
 flowchart TD
     A[Customer] --> B[Basic]
     B --> C[Standard]
@@ -246,7 +246,7 @@ flowchart TD
     B -.-> E[Churn]
     C -.-> E
     D -.-> F[Advocate]
-    subgraph "Value Ladder"
+    subgraph Value-Ladder
     B
     C
     D
