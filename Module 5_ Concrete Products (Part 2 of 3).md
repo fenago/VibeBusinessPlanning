@@ -88,8 +88,8 @@ b) **Acquisition Channels**
    %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#5D8AA8'}}}%%
    xychart-beta
        title "Channel Effectiveness Comparison"
-       x-axis "Cost Per Acquisition ($)" 0 --> 100
-       y-axis "Conversion Rate (%)" 0 --> 10
+       x-axis "Cost Per Acquisition ($)" 0 -->  100
+       y-axis "Conversion Rate (%)" 0 -->  10
        bubble [50, 5, 20, "SEO"]
        bubble [80, 7, 15, "PPC"]
        bubble [30, 3, 25, "Email"]
@@ -108,12 +108,12 @@ c) **Acquisition Funnel**
    Example acquisition funnel:
    ```mermaid
    flowchart TD
-       A[Market] --> B[Visitors]
-       B --> C[Leads]
-       C --> D[Qualified Leads]
-       D --> E[Opportunities]
-       E --> F[Customers]
-       F --> G[Advocates]
+       A[Market] --> [Visitors]
+       B --> [Leads]
+       C --> [Qualified Leads]
+       D --> [Opportunities]
+       E --> [Customers]
+       F --> [Advocates]
        
        A --Targeting--> B
        B --Lead Magnet--> C
@@ -221,12 +221,12 @@ b) **Onboarding Process**
    Example onboarding flow:
    ```mermaid
    flowchart LR
-       A[Purchase] --> B[Welcome Email]
-       B --> C[Account Setup]
-       C --> D[Product Tour]
-       D --> E[First Success]
-       E --> F[Follow-up Check-in]
-       F --> G[Upsell Opportunity]
+       A[Purchase] --> [Welcome Email]
+       B --> [Account Setup]
+       C --> [Product Tour]
+       D --> [First Success]
+       E --> [Follow-up Check-in]
+       F --> [Upsell Opportunity]
        
        C -.-> H[Help Resources]
        D -.-> H

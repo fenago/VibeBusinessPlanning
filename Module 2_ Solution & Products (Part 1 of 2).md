@@ -141,10 +141,10 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
       Example diagram:
       ```mermaid
       flowchart LR
-          A[Milestone 1] --> B[Milestone 2]
-          B --> C[Milestone 3]
-          C --> D[Milestone 4]
-          D --> E[Final Outcome]
+          A[Milestone 1] --> [Milestone 2]
+          B --> [Milestone 3]
+          C --> [Milestone 4]
+          D --> [Final Outcome]
       ```
         
    d) **Unique Advantages**
@@ -183,8 +183,8 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
    Example diagram:
    ```mermaid
    graph TD
-      A[Entry Level] -->|Upgrade Path| B[Mid Level]
-      B -->|Upgrade Path| C[Premium Level]
+      A[Entry Level] --> [Mid Level]
+      B --> [Premium Level]
       style A fill:#f5f5f5,stroke:#d5d5d5
       style B fill:#e6f7ff,stroke:#69c0ff
       style C fill:#f6ffed,stroke:#95de64
@@ -240,9 +240,9 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
             Example:
             ```mermaid
             flowchart TD
-                A[New Customer] --> B[Core Product]
-                B --> C[Mid-Tier Product]
-                C --> D[Premium Product]
+                A[New Customer] --> [Core Product]
+                B --> [Mid-Tier Product]
+                C --> [Premium Product]
                 B -.-> E[Churn]
                 C -.-> E
                 D -.-> F[Advocacy]

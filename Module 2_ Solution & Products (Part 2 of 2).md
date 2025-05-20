@@ -83,9 +83,9 @@ YOUR INPUT: [List any technical limitations or requirements for your solution]
       Example diagram:
       ```mermaid
       flowchart LR
-          A[Trigger] --> B[Action]
-          B --> C[Reward]
-          C --> D[Investment]
+          A[Trigger] --> [Action]
+          B --> [Reward]
+          C --> [Investment]
           D --> A
       ```
 
@@ -173,13 +173,13 @@ YOUR INPUT: [List any technical limitations or requirements for your solution]
    Example diagram:
    ```mermaid
    flowchart TD
-       A[Target Customers] --> F[Product-Market Fit]
+       A[Target Customers] --> [Product-Market Fit]
        B[Value Proposition] --> F
        C[Product Features] --> F
        D[Channels] --> F
        E[Revenue Model] --> F
-       F --> G[Strong Fit Areas]
-       F --> H[Improvement Areas]
+       F --> [Strong Fit Areas]
+       F --> [Improvement Areas]
    ```
 
 7. **Solution & Products Summary**

@@ -83,7 +83,7 @@ a) **Profit & Loss Projections**
    xychart-beta
        title "Profit & Loss Forecast"
        x-axis ["Year 1", "Year 2", "Year 3"]
-       y-axis "Amount ($K)" 0 --> 1200
+       y-axis "Amount ($K)" 0 -->  1200
        bar [600, 900, 1200]
        bar [450, 650, 850]
        bar [150, 250, 350]
@@ -125,8 +125,8 @@ a) **Risk Matrix**
    ```mermaid
    quadrantChart
        title Risk Assessment Matrix
-       x-axis Low Impact --> High Impact
-       y-axis Low Probability --> High Probability
+       x-axis Low Impact -->  High Impact
+       y-axis Low Probability -->  High Probability
        quadrant-1 "Monitor"
        quadrant-2 "High Priority"
        quadrant-3 "Low Priority"

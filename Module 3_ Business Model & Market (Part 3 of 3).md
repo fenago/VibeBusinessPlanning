@@ -176,7 +176,7 @@ INSTRUCTIONS FOR USER:
       xychart-beta
           title "Revenue Projection (3 Years)"
           x-axis ["Q1 Y1", "Q2 Y1", "Q3 Y1", "Q4 Y1", "Q1 Y2", "Q2 Y2", "Q3 Y2", "Q4 Y2", "Q1 Y3", "Q2 Y3", "Q3 Y3", "Q4 Y3"]
-          y-axis "Revenue ($K)" 0 --> 500
+          y-axis "Revenue ($K)" 0 -->  500
           bar [50, 75, 90, 120, 150, 190, 250, 300, 320, 380, 420, 500]
       ```
 

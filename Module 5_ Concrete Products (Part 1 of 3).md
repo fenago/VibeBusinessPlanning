@@ -125,12 +125,12 @@ a) **Production Process**
    Example process flow:
    ```mermaid
    flowchart LR
-       A[Design] --> B[Development]
-       B --> C[Testing]
-       C --> D[QA Review]
-       D -- Approved --> E[Production]
+       A[Design] --> [Development]
+       B --> [Testing]
+       C --> [QA Review]
+       D -- Approved --> [Production]
        D -- Rejected --> B
-       E --> F[Delivery]
+       E --> [Delivery]
    ```
 
 b) **Supply Chain & Operations**
