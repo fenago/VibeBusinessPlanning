@@ -140,10 +140,10 @@ c) **Key Milestones**
 Example diagram:
 ```mermaid
 flowchart LR
-    A[Milestone 1] --> [Milestone 2]
-    B --> B[B][Milestone 3]
-    C --> B[B][Milestone 4]
-    D --> B[B][Final Outcome]
+    A[Milestone 1] --> B[Milestone 2]
+    B --> C[Milestone 3]
+    C --> D[Milestone 4]
+    D --> E[Final Outcome]
 ```
 d) **Unique Advantages**
 - Identify 3-5 unique advantages of this solution approach
@@ -176,8 +176,8 @@ Tier 1: Entry Level
 Example diagram:
 ```mermaid
 graph TD
-    A[Entry Level] --> [Mid Level]
-    B --> B[B][Premium Level]
+    A[Entry Level] --> B[Mid Level]
+    B --> C[Premium Level]
     style A fill:#f5f5f5,stroke:#d5d5d5
     style B fill:#e6f7ff,stroke:#69c0ff
     style C fill:#f6ffed,stroke:#95de64
@@ -226,7 +226,7 @@ flowchart TD
     A[Customer] --> B[Basic]
     B --> C[Standard]
     C --> D[Premium]
-    B  -.->  E[Churn]
+    B -.-> E[Churn]
     C  -.->  E
     D  -.->  F[Advocate]
 subgraph Value-Ladder
