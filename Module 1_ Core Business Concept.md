@@ -134,13 +134,10 @@ Create a Mermaid.js diagram showing how these differentiators relate to customer
 Example:
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Customer Need 1] --> B[Differentiator 1]
     C[Customer Need 2] --> D[Differentiator 2]
     E[Customer Need 3] --> F[Differentiator 3]
-    B --> G[Value Proposition]
-    D --> G
-    F --> G
 ```
     8. **Avatar Analysis**
     - Create a detailed avatar (customer persona) based on the Avatar Framework:
