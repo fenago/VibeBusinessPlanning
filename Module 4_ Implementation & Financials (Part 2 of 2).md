@@ -4,13 +4,9 @@
 ![Status: Ready For Input](https://img.shields.io/badge/Status-Ready_For_Input-22C55E?style=for-the-badge)
 ![Estimated Time: 90 Minutes](https://img.shields.io/badge/Estimated_Time-90_Minutes-F5A9B8?style=flat-square)
 
-<div style="border-left: 4px solid #5BCEFA; background-color: #E8F4FD; padding: 12px; margin-bottom: 20px;">
-
 ## 📈 Financial Modeling & Risk Management
 
-> In this second part of Module 4, you'll complete your implementation strategy with detailed financial projections, risk management plans, and timeline development.
-
-</div>
+> **Note:** In this second part of Module 4, you'll complete your implementation strategy with detailed financial projections, risk management plans, and timeline development.
 
 ### 🜌 Module Purpose
 
@@ -19,9 +15,8 @@
 - 📊 **KPI Development**: Establish key performance indicators to track success
 - 📆 **Timeline Creation**: Build a detailed implementation timeline
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
-
-## 📂 Previous Module Output
+## 
+📂 Previous Module Output
 
 > **INSTRUCTIONS:** Paste the complete output from Module 4 (Part 1) here
 
@@ -29,11 +24,10 @@
 [Paste your complete output from Module 4 (Part 1) here]
 ```
 
-</div>
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
 
-## 📝 User Input
+## 
+📝 User Input
 
 > **INSTRUCTIONS:** Complete the fields below with your financial preferences
 
@@ -52,11 +46,10 @@
 [Detail your available investment capacity]
 ```
 
-</div>
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
 
-## 📓 LLM Instructions
+## 
+📓 LLM Instructions
 
 > **INSTRUCTIONS:** Develop detailed financial projections and risk management plans
 
@@ -69,7 +62,7 @@
 5. Design risk mitigation strategies for each major risk
 6. Use diagrams where appropriate to illustrate financial projections
 
-</div>
+
 
 ## 📊 Output Sections
 
@@ -90,7 +83,7 @@ a) **Profit & Loss Projections**
    xychart-beta
        title "Profit & Loss Forecast"
        x-axis ["Year 1", "Year 2", "Year 3"]
-       y-axis "Amount ($K)" 0 --> 1200
+       y-axis "Amount ($K)" 0 --> **Note:** 1200
        bar [600, 900, 1200]
        bar [450, 650, 850]
        bar [150, 250, 350]
@@ -132,8 +125,8 @@ a) **Risk Matrix**
    ```mermaid
    quadrantChart
        title Risk Assessment Matrix
-       x-axis Low Impact --> High Impact
-       y-axis Low Probability --> High Probability
+       x-axis Low Impact --> **Note:** High Impact
+       y-axis Low Probability --> **Note:** High Probability
        quadrant-1 "Monitor"
        quadrant-2 "High Priority"
        quadrant-3 "Low Priority"

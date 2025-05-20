@@ -4,13 +4,9 @@
 ![Status: Ready For Input](https://img.shields.io/badge/Status-Ready_For_Input-22C55E?style=for-the-badge)
 ![Estimated Time: 90 Minutes](https://img.shields.io/badge/Estimated_Time-90_Minutes-F5A9B8?style=flat-square)
 
-<div style="border-left: 4px solid #5BCEFA; background-color: #E8F4FD; padding: 12px; margin-bottom: 20px;">
-
 ## 💼 Product Specification & Market Readiness
 
-> In this first part of Module 5, you'll begin defining your concrete product specifications, marketing materials, and launch strategy.
-
-</div>
+> **Note:** In this first part of Module 5, you'll begin defining your concrete product specifications, marketing materials, and launch strategy.
 
 ### 🌌 Module Purpose
 
@@ -19,9 +15,8 @@
 - 📝 **Documentation**: Create user guides, technical specs, and support materials
 - 💬 **Messaging Development**: Craft your core marketing messages and positioning
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
-
-## 📂 Previous Module Output
+## 
+📂 Previous Module Output
 
 > **INSTRUCTIONS:** Paste the complete output from Module 4 here
 
@@ -29,11 +24,10 @@
 [Paste your complete output from Module 4 here]
 ```
 
-</div>
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
 
-## 📝 User Input
+## 
+📝 User Input
 
 > **INSTRUCTIONS:** Complete the fields below with your product preferences
 
@@ -52,11 +46,10 @@
 [Note any technical specifications or constraints]
 ```
 
-</div>
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
 
-## 📓 LLM Instructions
+## 
+📓 LLM Instructions
 
 > **INSTRUCTIONS:** Develop concrete product specifications and marketing materials
 
@@ -69,7 +62,7 @@
 5. Craft core marketing messages and positioning statements
 6. Use diagrams where appropriate to illustrate product concepts
 
-</div>
+
 
 ## 📊 Output Sections
 
@@ -132,12 +125,12 @@ a) **Production Process**
    Example process flow:
    ```mermaid
    flowchart LR
-       A[Design] --> B[Development]
-       B --> C[Testing]
-       C --> D[QA Review]
-       D -- Approved --> E[Production]
-       D -- Rejected --> B
-       E --> F[Delivery]
+       A[Design] --> **Note:** B[Development]
+       B --> **Note:** C[Testing]
+       C --> **Note:** D[QA Review]
+       D -- Approved --> **Note:** E[Production]
+       D -- Rejected --> **Note:** B
+       E --> **Note:** F[Delivery]
    ```
 
 b) **Supply Chain & Operations**

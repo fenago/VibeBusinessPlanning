@@ -4,13 +4,9 @@
 ![Status: Ready For Input](https://img.shields.io/badge/Status-Ready_For_Input-22C55E?style=for-the-badge)
 ![Estimated Time: 90 Minutes](https://img.shields.io/badge/Estimated_Time-90_Minutes-F5A9B8?style=flat-square)
 
-<div style="border-left: 4px solid #5BCEFA; background-color: #E8F4FD; padding: 12px; margin-bottom: 20px;">
+## 👮 Operations & Resource Planning
 
-## 👮 Operations & Resource Planning 
-
-> In this first part of Module 4, you'll develop your implementation strategy, operational plan, and begin building financial projections.
-
-</div>
+> **Note:** In this first part of Module 4, you'll develop your implementation strategy, operational plan, and begin building financial projections.
 
 ### 🛰️ Module Purpose
 
@@ -19,9 +15,8 @@
 - 💰 **Resource Allocation**: Determine what resources you'll need and when
 - 📎 **Implementation Roadmap**: Build a detailed execution strategy
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
-
-## 📂 Previous Module Output
+## 
+📂 Previous Module Output
 
 > **INSTRUCTIONS:** Paste the complete output from Module 3 here
 
@@ -29,11 +24,10 @@
 [Paste your complete output from Module 3 here]
 ```
 
-</div>
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
 
-## 📝 User Input
+## 
+📝 User Input
 
 > **INSTRUCTIONS:** Complete the fields below with your implementation preferences
 
@@ -52,11 +46,10 @@
 [Describe any resource limitations or constraints to consider]
 ```
 
-</div>
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
 
-## 📓 LLM Instructions
+## 
+📓 LLM Instructions
 
 > **INSTRUCTIONS:** Develop the implementation strategy based on the business model
 
@@ -69,7 +62,7 @@
 5. Prioritize key activities based on business impact and resource requirements
 6. Use diagrams where appropriate to illustrate the implementation roadmap
 
-</div>
+
 
 ## 📊 Output Sections
 
@@ -85,15 +78,15 @@ a) **Core Operations Framework**
    Example diagram:
    ```mermaid
    flowchart TB
-       CEO[CEO/Founder] --> COO[COO/Operations]  
-       CEO --> CTO[CTO/Technical]  
-       CEO --> CMO[CMO/Marketing]  
-       COO --> CS[Customer Support]  
-       COO --> LOG[Logistics]  
-       CTO --> DEV[Development]  
-       CTO --> IT[IT Infrastructure]  
-       CMO --> MKT[Marketing] 
-       CMO --> SALES[Sales]  
+       CEO[CEO/Founder] --> **Note:** COO[COO/Operations]  
+       CEO --> **Note:** CTO[CTO/Technical]  
+       CEO --> **Note:** CMO[CMO/Marketing]  
+       COO --> **Note:** CS[Customer Support]  
+       COO --> **Note:** LOG[Logistics]  
+       CTO --> **Note:** DEV[Development]  
+       CTO --> **Note:** IT[IT Infrastructure]  
+       CMO --> **Note:** MKT[Marketing] 
+       CMO --> **Note:** SALES[Sales]  
    ```
 
 b) **Systems & Process Map**
@@ -131,7 +124,7 @@ a) **Timeline & Phases**
    ```
                 title "Revenue Projection"
                 x-axis [Year 1, Year 2, Year 3]
-                y-axis "Revenue ($)" 0 --> 1000000
+                y-axis "Revenue ($)" 0 --> **Note:** 1000000
                 bar [250000, 600000, 950000]
             ```
         </revenue_projections>

@@ -4,13 +4,9 @@
 ![Status: Ready For Input](https://img.shields.io/badge/Status-Ready_For_Input-22C55E?style=for-the-badge)
 ![Estimated Time: 75 Minutes](https://img.shields.io/badge/Estimated_Time-75_Minutes-F5A9B8?style=flat-square)
 
-<div style="border-left: 4px solid #5BCEFA; background-color: #E8F4FD; padding: 12px; margin-bottom: 20px;">
-
 ## 🔬 Solution Architecture Design
 
-> In this first part of Module 2, you'll define your solution strategy and begin outlining your product/service offerings based on your core business concept.
-
-</div>
+> **Note:** In this first part of Module 2, you'll define your solution strategy and begin outlining your product/service offerings based on your core business concept.
 
 ### 🛰️ Module Purpose
 
@@ -21,34 +17,35 @@
 
 <!-- Instructions for user - will not be visible on GitHub -->
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
-
-## 📂 Previous Module Output
+## 
+📂 Previous Module Output
 
 > **INSTRUCTIONS:** Paste the complete output from Module 1 here
 
-</div>
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
 
-## 📝 User Input Section
+## 
+📝 User Input Section
 
 > **INSTRUCTIONS:** Complete the fields below with your solution preferences. All fields are optional but helpful.
 
-### <span style="color: #3182CE;">Solution Preferences</span>
+### **Solution Preferences**
 YOUR INPUT: [Add any specific preferences or requirements for your solution]
 
-### <span style="color: #3182CE;">Technical Constraints</span>
+---
+
+### **Technical Constraints**
 YOUR INPUT: [Note any technical limitations or requirements to consider]
 
-### <span style="color: #3182CE;">Target Platforms</span>
+---
+
+### **Target Platforms**
 YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, desktop, etc.)]
 
-</div>
+---
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
-
-## 📓 LLM Instructions
+## 
+📓 LLM Instructions
 
 > **INSTRUCTIONS:** Define the solution strategy and product offerings using the business concept
 
@@ -63,34 +60,35 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
 
 <!-- Instructions for user - will not be visible on GitHub -->
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
-
-## 📂 Previous Module Output
+## 
+📂 Previous Module Output
 
 > **INSTRUCTIONS:** Paste the complete output from Module 1 here
 
-</div>
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
 
-## 📝 User Input Section
+## 
+📝 User Input Section
 
 > **INSTRUCTIONS:** Complete the fields below with your solution preferences. All fields are optional but helpful.
 
-### <span style="color: #3182CE;">Solution Preferences</span>
+### **Solution Preferences**
 YOUR INPUT: [Add any specific preferences or requirements for your solution]
 
-### <span style="color: #3182CE;">Technical Constraints</span>
+---
+
+### **Technical Constraints**
 YOUR INPUT: [Note any technical limitations or requirements to consider]
 
-### <span style="color: #3182CE;">Target Platforms</span>
+---
+
+### **Target Platforms**
 YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, desktop, etc.)]
 
-</div>
+---
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
-
-## 📓 LLM Instructions
+## 
+📓 LLM Instructions
 
 > **INSTRUCTIONS:** Define the solution strategy and product offerings using the business concept
 
@@ -143,10 +141,10 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
       Example diagram:
       ```mermaid
       flowchart LR
-          A[Milestone 1] --> B[Milestone 2]
-          B --> C[Milestone 3]
-          C --> D[Milestone 4]
-          D --> E[Final Outcome]
+          A[Milestone 1] --> **Note:** B[Milestone 2]
+          B --> **Note:** C[Milestone 3]
+          C --> **Note:** D[Milestone 4]
+          D --> **Note:** E[Final Outcome]
       ```
         
    d) **Unique Advantages**
@@ -242,12 +240,12 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
             Example:
             ```mermaid
             flowchart TD
-                A[New Customer] --> B[Core Product]
-                B --> C[Mid-Tier Product]
-                C --> D[Premium Product]
-                B -.-> E[Churn]
-                C -.-> E
-                D -.-> F[Advocacy]
+                A[New Customer] --> **Note:** B[Core Product]
+                B --> **Note:** C[Mid-Tier Product]
+                C --> **Note:** D[Premium Product]
+                B -.-> **Note:** E[Churn]
+                C -.-> **Note:** E
+                D -.-> **Note:** F[Advocacy]
                 subgraph "Value Ladder"
                 B
                 C

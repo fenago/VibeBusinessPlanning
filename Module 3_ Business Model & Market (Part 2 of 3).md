@@ -4,13 +4,9 @@
 ![Status: Ready For Input](https://img.shields.io/badge/Status-Ready_For_Input-22C55E?style=for-the-badge)
 ![Estimated Time: 60 Minutes](https://img.shields.io/badge/Estimated_Time-60_Minutes-F5A9B8?style=flat-square)
 
-<div style="border-left: 4px solid #5BCEFA; background-color: #E8F4FD; padding: 12px; margin-bottom: 20px;">
-
 ## 🌐 Market Positioning & Entry
 
-> In this second part of Module 3, you'll develop your market entry strategy and refine your competitive positioning to ensure market success.
-
-</div>
+> **Note:** In this second part of Module 3, you'll develop your market entry strategy and refine your competitive positioning to ensure market success.
 
 ### 🛰️ Module Purpose
 
@@ -19,34 +15,35 @@
 - 🗳 **Market Segmentation**: Identify key market segments for targeting
 - 📆 **Launch Timeline**: Establish a strategic market entry schedule
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
-
-## 📂 Previous Module Output
+## 
+📂 Previous Module Output
 
 > **INSTRUCTIONS:** Paste the complete output from Module 3 (Part 1) here
 
-</div>
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
 
-## 📝 User Input Section
+## 
+📝 User Input Section
 
 > **INSTRUCTIONS:** Complete the fields below with your market strategy preferences. All fields are optional but helpful.
 
-### <span style="color: #3182CE;">Market Entry Preferences</span>
+### **Market Entry Preferences**
 YOUR INPUT: [Note any specific preferences for how you want to enter the market]
 
-### <span style="color: #3182CE;">Competitive Strategy</span>
+---
+
+### **Competitive Strategy**
 YOUR INPUT: [Add any preferences for how you'd like to position against competitors]
 
-### <span style="color: #3182CE;">Timing Considerations</span>
+---
+
+### **Timing Considerations**
 YOUR INPUT: [Note any timing constraints or preferences for market entry]
 
-</div>
+---
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
-
-## 📓 LLM Instructions
+## 
+📓 LLM Instructions
 
 > **INSTRUCTIONS:** Continue developing the business model and market strategy from Part 1
 
@@ -74,8 +71,8 @@ YOUR INPUT: [Note any timing constraints or preferences for market entry]
       Example diagram:
       ```mermaid
       graph TD
-          A[Total Addressable Market: $Xb] --> B[Serviceable Available Market: $Ym]
-          B --> C[Serviceable Obtainable Market: $Zm]
+          A[Total Addressable Market: $Xb] --> **Note:** B[Serviceable Available Market: $Ym]
+          B --> **Note:** C[Serviceable Obtainable Market: $Zm]
           style A fill:#f9f,stroke:#333,stroke-width:2px
           style B fill:#bbf,stroke:#333,stroke-width:2px
           style C fill:#bfb,stroke:#333,stroke-width:2px
@@ -105,8 +102,8 @@ YOUR INPUT: [Note any timing constraints or preferences for market entry]
       ```mermaid
       quadrantChart
           title Competitive Positioning
-          x-axis Low Price --> High Price
-          y-axis Low Quality --> High Quality
+          x-axis Low Price --> **Note:** High Price
+          y-axis Low Quality --> **Note:** High Quality
           quadrant-1 Premium
           quadrant-2 Overpriced
           quadrant-3 Budget
@@ -222,10 +219,10 @@ YOUR INPUT: [Note any timing constraints or preferences for market entry]
             H[Marketing & Sales]
             I[Service]
             end
-            E --> F
-            F --> G
-            G --> H
-            H --> I
+            E --> **Note:** F
+            F --> **Note:** G
+            G --> **Note:** H
+            H --> **Note:** I
         ```
     </value_chain_analysis>
     
@@ -368,17 +365,17 @@ YOUR INPUT: [Note any timing constraints or preferences for market entry]
       
       Outline specific actions to maintain competitive advantage over time
 
-</div>
 
-<div style="border-left: 4px solid #22C55E; background-color: #F0FDF4; padding: 12px; margin: 20px 0;">
+---
+
 
 ## 🔜 Next Steps
 
 > **After receiving the market analysis output:**
-> 
-> 1. Review the market analysis and competitive strategy for alignment with your vision
-> 2. Save the complete output (including all sections)
-> 3. Proceed to "Module 3: Business Model & Market (Part 3 of 3)" to continue
-> 4. After completing all parts, combine them before proceeding to Module 4
+> **Note:** 
+> **Note:** 1. Review the market analysis and competitive strategy for alignment with your vision
+> **Note:** 2. Save the complete output (including all sections)
+> **Note:** 3. Proceed to "Module 3: Business Model & Market (Part 3 of 3)" to continue
+> **Note:** 4. After completing all parts, combine them before proceeding to Module 4
 
-</div>
+

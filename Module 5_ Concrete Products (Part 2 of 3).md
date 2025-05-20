@@ -4,13 +4,9 @@
 ![Status: Ready For Input](https://img.shields.io/badge/Status-Ready_For_Input-22C55E?style=for-the-badge)
 ![Estimated Time: 90 Minutes](https://img.shields.io/badge/Estimated_Time-90_Minutes-F5A9B8?style=flat-square)
 
-<div style="border-left: 4px solid #5BCEFA; background-color: #E8F4FD; padding: 12px; margin-bottom: 20px;">
-
 ## 📰 Marketing Strategy & Customer Acquisition
 
-> In this second part of Module 5, you'll develop your customer acquisition strategy, marketing campaigns, and refine your product delivery plans.
-
-</div>
+> **Note:** In this second part of Module 5, you'll develop your customer acquisition strategy, marketing campaigns, and refine your product delivery plans.
 
 ### 🌌 Module Purpose
 
@@ -19,9 +15,8 @@
 - 📈 **Sales Processes**: Develop your sales funnel and conversion optimization strategy
 - 📬 **Communication Planning**: Establish your customer communication approach
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
-
-## 📂 Previous Module Output
+## 
+📂 Previous Module Output
 
 > **INSTRUCTIONS:** Paste the complete output from Module 5 (Part 1) here
 
@@ -29,11 +24,10 @@
 [Paste your complete output from Module 5 (Part 1) here]
 ```
 
-</div>
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
 
-## 📝 User Input
+## 
+📝 User Input
 
 > **INSTRUCTIONS:** Complete the fields below with your marketing preferences
 
@@ -52,11 +46,10 @@
 [Outline any brand voice, style, or design guidelines]
 ```
 
-</div>
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
 
-## 📓 LLM Instructions
+## 
+📓 LLM Instructions
 
 > **INSTRUCTIONS:** Develop comprehensive marketing and customer acquisition strategies
 
@@ -69,7 +62,7 @@
 5. Establish customer communication and engagement plans
 6. Use diagrams where appropriate to illustrate marketing concepts
 
-</div>
+
 
 ## 📊 Output Sections
 
@@ -95,8 +88,8 @@ b) **Acquisition Channels**
    %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#5D8AA8'}}}%%
    xychart-beta
        title "Channel Effectiveness Comparison"
-       x-axis "Cost Per Acquisition ($)" 0 --> 100
-       y-axis "Conversion Rate (%)" 0 --> 10
+       x-axis "Cost Per Acquisition ($)" 0 --> **Note:** 100
+       y-axis "Conversion Rate (%)" 0 --> **Note:** 10
        bubble [50, 5, 20, "SEO"]
        bubble [80, 7, 15, "PPC"]
        bubble [30, 3, 25, "Email"]
@@ -115,19 +108,19 @@ c) **Acquisition Funnel**
    Example acquisition funnel:
    ```mermaid
    flowchart TD
-       A[Market] --> B[Visitors]
-       B --> C[Leads]
-       C --> D[Qualified Leads]
-       D --> E[Opportunities]
-       E --> F[Customers]
-       F --> G[Advocates]
+       A[Market] --> **Note:** B[Visitors]
+       B --> **Note:** C[Leads]
+       C --> **Note:** D[Qualified Leads]
+       D --> **Note:** E[Opportunities]
+       E --> **Note:** F[Customers]
+       F --> **Note:** G[Advocates]
        
-       A --Targeting--> B
-       B --Lead Magnet--> C
-       C --Qualification--> D
-       D --Proposal--> E
-       E --Conversion--> F
-       F --Loyalty Program--> G
+       A --Targeting--> **Note:** B
+       B --Lead Magnet--> **Note:** C
+       C --Qualification--> **Note:** D
+       D --Proposal--> **Note:** E
+       E --Conversion--> **Note:** F
+       F --Loyalty Program--> **Note:** G
    ```
 
 ### 2. Marketing Campaigns
@@ -228,16 +221,16 @@ b) **Onboarding Process**
    Example onboarding flow:
    ```mermaid
    flowchart LR
-       A[Purchase] --> B[Welcome Email]
-       B --> C[Account Setup]
-       C --> D[Product Tour]
-       D --> E[First Success]
-       E --> F[Follow-up Check-in]
-       F --> G[Upsell Opportunity]
+       A[Purchase] --> **Note:** B[Welcome Email]
+       B --> **Note:** C[Account Setup]
+       C --> **Note:** D[Product Tour]
+       D --> **Note:** E[First Success]
+       E --> **Note:** F[Follow-up Check-in]
+       F --> **Note:** G[Upsell Opportunity]
        
-       C -.-> H[Help Resources]
-       D -.-> H
-       E -.-> H
+       C -.-> **Note:** H[Help Resources]
+       D -.-> **Note:** H
+       E -.-> **Note:** H
    ```
 
 c) **Retention Strategy**

@@ -22,17 +22,27 @@
 ### • **Business Name**
 YOUR INPUT: [Enter your business name]
 
+---
+
 ### • **Business Description**
 YOUR INPUT: [Write a brief description of your business idea - what it does and who it's for]
+
+---
 
 ### **Research URLs** (Recommended)
 YOUR INPUT: [Provide 3-5 URLs for the LLM to research (optional but recommended)]
 
+---
+
 ### **API Documentation** (Optional)
 YOUR INPUT: [Provide any API documentation or technical capabilities that underpin your business idea]
 
+---
+
 ### **Industry Focus** (Optional)
 YOUR INPUT: [Specify any particular industry aspects to focus on (optional)]
+
+---
 
 ---
 
@@ -52,12 +62,12 @@ Create a diagram showing the industry structure and where this business fits. Ex
 
 ```mermaid
 flowchart TD
-    A[Industry Name] --> B[Segment 1]
-    A --> C[Segment 2]
-    A --> D[Segment 3]
-    B --> E[Competitor 1]
-    B --> F[Your Business]
-    C --> G[Competitor 2]
+    A[Industry Name] --> **Note:** B[Segment 1]
+    A --> **Note:** C[Segment 2]
+    A --> **Note:** D[Segment 3]
+    B --> **Note:** E[Competitor 1]
+    B --> **Note:** F[Your Business]
+    C --> **Note:** G[Competitor 2]
 ```
 
 
@@ -127,8 +137,8 @@ Provide 3-5 strategic recommendations based on research findings. Include specif
 ## 🔜 Next Steps
 
 > **After receiving the research output:**
-> 
-> 1. Review the findings and save the information
-> 2. Proceed to Module 1: Core Business Concept
-> 3. Use insights from this research to inform your business identity development
-> 4. The research will inform and enhance the development of your core business concept
+> **Note:** 
+> **Note:** 1. Review the findings and save the information
+> **Note:** 2. Proceed to Module 1: Core Business Concept
+> **Note:** 3. Use insights from this research to inform your business identity development
+> **Note:** 4. The research will inform and enhance the development of your core business concept
