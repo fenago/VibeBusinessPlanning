@@ -4,13 +4,9 @@
 ![Status: Ready For Input](https://img.shields.io/badge/Status-Ready_For_Input-22C55E?style=for-the-badge)
 ![Estimated Time: 45 Minutes](https://img.shields.io/badge/Estimated_Time-45_Minutes-F5A9B8?style=flat-square)
 
-<div style="border-left: 4px solid #5BCEFA; background-color: #E8F4FD; padding: 12px; margin-bottom: 20px;">
-
 ## 🔎 Business Intelligence Gathering
 
-> This is the first module in the Vibe Business Planning System. Here, you'll provide basic information about your business idea to generate comprehensive market research that will inform later modules.
-
-</div>
+> **Note:** This is the first module in the Vibe Business Planning System. Here, you'll provide basic information about your business idea to generate comprehensive market research that will inform later modules.
 
 ### 🚀 Module Purpose
 
@@ -19,30 +15,26 @@
 - 👥 **Audience Identification**: Discover exactly who will benefit from your solution
 - 📋 **Competitive Analysis**: Understand the landscape you'll be entering
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
-
 ## 📝 User Input Section
 
 > **INSTRUCTIONS:** Complete the fields below with your business information. Fields marked with • are required.
 
-### • <span style="color: #3182CE;">Business Name</span>
+### • **Business Name**
 YOUR INPUT: [Enter your business name]
 
-### • <span style="color: #3182CE;">Business Description</span>
+### • **Business Description**
 YOUR INPUT: [Write a brief description of your business idea - what it does and who it's for]
 
-### <span style="color: #3182CE;">Research URLs</span> (Recommended)
+### **Research URLs** (Recommended)
 YOUR INPUT: [Provide 3-5 URLs for the LLM to research (optional but recommended)]
 
-### <span style="color: #3182CE;">API Documentation</span> (Optional)
+### **API Documentation** (Optional)
 YOUR INPUT: [Provide any API documentation or technical capabilities that underpin your business idea]
 
-### <span style="color: #3182CE;">Industry Focus</span> (Optional)
+### **Industry Focus** (Optional)
 YOUR INPUT: [Specify any particular industry aspects to focus on (optional)]
 
-</div>
-
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
+---
 
 ## 📓 LLM Instructions
 
@@ -68,9 +60,9 @@ flowchart TD
     C --> G[Competitor 2]
 ```
 
-</div>
-    
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
+
+---
+
 
 ### 👥 3. Target Audience Insights
 
@@ -129,9 +121,8 @@ Provide a brief explanation for each rating.
 
 Provide 3-5 strategic recommendations based on research findings. Include specific actions the business founder should consider. Note any pivots or refinements to the original concept that might increase chances of success.
 
-</div>
 
-<div style="border-left: 4px solid #22C55E; background-color: #F0FDF4; padding: 12px; margin: 20px 0;">
+---
 
 ## 🔜 Next Steps
 
@@ -141,5 +132,3 @@ Provide 3-5 strategic recommendations based on research findings. Include specif
 > 2. Proceed to Module 1: Core Business Concept
 > 3. Use insights from this research to inform your business identity development
 > 4. The research will inform and enhance the development of your core business concept
-
-</div>
