@@ -89,13 +89,14 @@ YOUR INPUT: [Confirm or update your business description based on research insig
    - Highlight the key benefits customers will receive
 
    Example diagram:
+
 ```mermaid
 graph LR
-       A[Customer Need] --> [Your Solution]
-       B --> [Key Benefit 1]
-       B --> [Key Benefit 2]
-       B --> [Key Benefit 3]
-   ```
+A[Customer Need] --> B[Your Solution]
+B --> C[Key Benefit 1]
+B --> D[Key Benefit 2]
+B --> E[Key Benefit 3]
+```
 
 5. **Inspiration Sources**
    - Identify 3-5 existing businesses or apps that could serve as inspiration
@@ -115,26 +116,23 @@ graph LR
        Create a Mermaid.js diagram showing the customer journey flow.
        Example:
 ```mermaid
-       flowchart LR
-           A[Awareness] --> [Consideration]
-           B --> [Decision]
-           C --> [Onboarding]
-           D --> [Usage]
-           E --> [Retention]
-           F --> [Advocacy]
-       ```
-
+flowchart LR
+A[Awareness] --> [Consideration]
+B --> [Decision]
+C --> [Onboarding]
+D --> [Usage]
+E --> [Retention]
+F --> [Advocacy]
+```
 7. **Core Differentiators**
-       - Identify 3-5 key differentiators that set this business apart
-       - For each differentiator, explain:
-         - What makes it unique
-         - Why it matters to customers
-         - How it creates competitive advantage
-
-       Focus on meaningful differences that create real value, not superficial distinctions.
-
-       Create a Mermaid.js diagram showing how these differentiators relate to customer needs.
-       Example:
+- Identify 3-5 key differentiators that set this business apart
+- For each differentiator, explain:
+- What makes it unique
+- Why it matters to customers
+- How it creates competitive advantage
+Focus on meaningful differences that create real value, not superficial distinctions.
+Create a Mermaid.js diagram showing how these differentiators relate to customer needs.
+Example:
 ```mermaid
 flowchart LR
            A[Customer Need 1] --> [Differentiator 1]
@@ -197,26 +195,26 @@ flowchart LR
        Create a Mermaid.js diagram visualizing the avatar's key characteristics.
        Example:
 ```mermaid
-       mindmap
-           root((Avatar Name))
-               Demographics
-                   Age range
-                   Income level
-                   Education
-                   Location
-               Psychographics
-                   Values
-                   Beliefs
-                   Interests
-               Pains
-                   Pain point 1
-                   Pain point 2
-               Goals
-                   Goal 1
-                   Goal 2
-               Currency
-                   Primary value
-       ```
+mindmap
+root((Avatar Name))
+Demographics
+Age range
+Income level
+Education
+Location
+Psychographics
+Values
+Beliefs
+Interests
+Pains
+Pain point 1
+Pain point 2
+Goals
+Goal 1
+Goal 2
+Currency
+Primary value
+```
 
 9. **Million Dollar Message**
        - Create a compelling Million Dollar Message following this formula:
@@ -246,32 +244,25 @@ flowchart LR
        Example:
 ```mermaid
 mindmap
-           root((Customer Empathy Map))
-               Sees
-                   Market offerings
-                   Competitor messages
-                   Peer activities
-               Hears
-                   Recommendations
-                   Expert opinions
-                   Social media
-               Thinks & Feels
-                   Aspirations
-                   Concerns
-                   Motivations
-               Says & Does
-                   Public statements
-                   Behaviors
-                   Actions
-               Pains
-                   Frustrations
-                   Obstacles
-                   Fears
-               Gains
-                   Desires
-                   Needs
-                   Success measures
-       ```
+root((Avatar Name))
+Demographics
+Age range
+Income level
+Education
+Location
+Psychographics
+Values
+Beliefs
+Interests
+Pains
+Pain point 1
+Pain point 2
+Goals
+Goal 1
+Goal 2
+Currency
+Primary value
+```
 
 11. **Core Concept Summary**
        - Synthesize all the above elements into a cohesive 2-3 paragraph summary.
@@ -287,26 +278,26 @@ mindmap
         Create a Mermaid.js diagram visualizing the avatar's key characteristics.
         Example:
 ```mermaid
-        mindmap
-            root((Avatar Name))
-                Demographics
-                    Age range
-                    Income level
-                    Education
-                    Location
-                Psychographics
-                    Values
-                    Beliefs
-                    Interests
-                Pains
-                    Pain point 1
-                    Pain point 2
-                Goals
-                    Goal 1
-                    Goal 2
-                Currency
-                    Primary value
-        ```
+mindmap
+root((Avatar Name))
+Demographics
+Age range
+Income level
+Education
+Location
+Psychographics
+Values
+Beliefs
+Interests
+Pains
+Pain point 1
+Pain point 2
+Goals
+Goal 1
+Goal 2
+Currency
+Primary value
+```
     </avatar_analysis>
     
     8. <million_dollar_message priority="essential">
@@ -337,33 +328,26 @@ mindmap
         Create a Mermaid.js diagram showing the empathy map.
         Example:
 ```mermaid
-        mindmap
-            root((Customer Empathy Map))
-                Sees
-                    Market offerings
-                    Competitor messages
-                    Peer activities
-                Hears
-                    Recommendations
-                    Expert opinions
-                    Social media
-                Thinks & Feels
-                    Aspirations
-                    Concerns
-                    Motivations
-                Says & Does
-                    Public statements
-                    Behaviors
-                    Actions
-                Pains
-                    Frustrations
-                    Obstacles
-                    Fears
-                Gains
-                    Desires
-                    Needs
-                    Success measures
-        ```
+mindmap
+root((Avatar Name))
+Demographics
+Age range
+Income level
+Education
+Location
+Psychographics
+Values
+Beliefs
+Interests
+Pains
+Pain point 1
+Pain point 2
+Goals
+Goal 1
+Goal 2
+Currency
+Primary value
+```
     </empathy_map_canvas>
     
     10. <core_concept_summary priority="essential">

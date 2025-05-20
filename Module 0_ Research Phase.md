@@ -61,12 +61,12 @@ Provide a brief overview of the industry this business would operate in. Include
 Create a diagram showing the industry structure and where this business fits. Example:
 ```mermaid
 flowchart TD
-    A[Industry Name] --> [Segment 1]
-    A --> [Segment 2]
-    A --> [Segment 3]
-    B --> [Competitor 1]
-    B --> [Your Business]
-    C --> [Competitor 2]
+A[Industry Name] --> [Segment 1]
+A --> [Segment 2]
+A --> [Segment 3]
+B --> [Competitor 1]
+B --> [Your Business]
+C --> [Competitor 2]
 ```
 
 
@@ -84,11 +84,11 @@ Identify 3-5 relevant trends affecting this business space. Explain how these tr
 Create a timeline diagram showing trend evolution. Example:
 ```mermaid
 gitGraph
-    commit id: "2020"
-    commit id: "2022"
-    commit id: "2023"
-    commit id: "2024"
-    commit id: "2025"
+commit id: "2020"
+commit id: "2022"
+commit id: "2023"
+commit id: "2024"
+commit id: "2025"
 ```
 
 ### 🔍 5. Competitive Landscape

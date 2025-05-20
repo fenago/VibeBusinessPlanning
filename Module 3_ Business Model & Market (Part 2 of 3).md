@@ -71,79 +71,68 @@ YOUR INPUT: [Note any timing constraints or preferences for market entry]
       Example diagram:
       ```mermaid
 graph TD
-          A[Total Addressable Market: $Xb] --> [Serviceable Available Market: $Ym]
-          B --> [Serviceable Obtainable Market: $Zm]
-          style A fill:#f9f,stroke:#333,stroke-width:2px
-          style B fill:#bbf,stroke:#333,stroke-width:2px
-          style C fill:#bfb,stroke:#333,stroke-width:2px
-      ```
-
+A[Total Addressable Market: $Xb] --> [Serviceable Available Market: $Ym]
+B --> [Serviceable Obtainable Market: $Zm]
+style A fill:#f9f,stroke:#333,stroke-width:2px
+style B fill:#bbf,stroke:#333,stroke-width:2px
+style C fill:#bfb,stroke:#333,stroke-width:2px
+```
 b) **Growth Trends**
-      - Analyze market growth patterns:
-        - Historical growth rates
-        - Projected future growth
-        - Key growth drivers
-        - Potential growth inhibitors
-      
-      Include relevant statistics and cite sources where possible
-   c) **Competitive Landscape**
-      - Map the competitive environment:
-        - Direct competitors (similar offerings to similar segments)
-        - Indirect competitors (different offerings solving same problems)
-        - Potential future competitors
-      
-      For each major competitor, analyze:
-      - Strengths and unique advantages
-      - Weaknesses and vulnerabilities
-      - Market positioning and share
-      - Pricing and business model
-      
-      Example diagram:
-      ```mermaid
-      quadrantChart
-          title Competitive Positioning
-          x-axis Low Price --> High Price
-          y-axis Low Quality --> High Quality
-          quadrant-1 Premium
-          quadrant-2 Overpriced
-          quadrant-3 Budget
-          quadrant-4 Value
-          "Competitor A": [0.3, 0.6]
-          "Competitor B": [0.7, 0.7]
-          "Competitor C": [0.4, 0.3]
-          "Our Business": [0.6, 0.8]
-                "Your Business": [0.5, 0.8]
-                "Competitor C": [0.2, 0.4]
-            ```
-        </competitive_landscape>
-        
-        d) <swot_analysis priority="important">
-            Conduct a comprehensive SWOT analysis:
-            
-            Strengths:
-            - Internal capabilities and advantages
-            - Unique resources and assets
-            - Competitive advantages
-            
-            Weaknesses:
-            - Internal limitations and disadvantages
-            - Resource gaps
-            - Competitive disadvantages
-            
-            Opportunities:
-            - External factors that could be favorable
-            - Market trends that create openings
-            - Underserved needs or segments
-            
-            Threats:
-            - External factors that could be harmful
-            - Competitive pressures
-            - Changing regulations or technologies
-            
-            For each category, list 3-5 specific factors with brief explanations.
-            
-            Create a Mermaid.js diagram showing the SWOT analysis.
-            Example:
+- Analyze market growth patterns:
+- Historical growth rates
+- Projected future growth
+- Key growth drivers
+- Potential growth inhibitors
+Include relevant statistics and cite sources where possible
+c) **Competitive Landscape**
+- Map the competitive environment:
+- Direct competitors (similar offerings to similar segments)
+- Indirect competitors (different offerings solving same problems)
+- Potential future competitors
+For each major competitor, analyze:
+- Strengths and unique advantages
+- Weaknesses and vulnerabilities
+- Market positioning and share
+- Pricing and business model
+Example diagram:
+```mermaid
+quadrantChart
+title Competitive Positioning
+x-axis Low Price --> High Price
+y-axis Low Quality --> High Quality
+quadrant-1 Premium
+quadrant-2 Overpriced
+quadrant-3 Budget
+quadrant-4 Value
+"Competitor A": [0.3, 0.6]
+"Competitor B": [0.7, 0.7]
+"Competitor C": [0.4, 0.3]
+"Our Business": [0.6, 0.8]
+"Your Business": [0.5, 0.8]
+"Competitor C": [0.2, 0.4]
+```
+</competitive_landscape>
+d) <swot_analysis priority="important">
+Conduct a comprehensive SWOT analysis:
+Strengths:
+- Internal capabilities and advantages
+- Unique resources and assets
+- Competitive advantages
+Weaknesses:
+- Internal limitations and disadvantages
+- Resource gaps
+- Competitive disadvantages
+Opportunities:
+- External factors that could be favorable
+- Market trends that create openings
+- Underserved needs or segments
+Threats:
+- External factors that could be harmful
+- Competitive pressures
+- Changing regulations or technologies
+For each category, list 3-5 specific factors with brief explanations.
+Create a Mermaid.js diagram showing the SWOT analysis.
+Example:
 ```mermaid
             classDiagram
                 class Strengths {
@@ -206,84 +195,76 @@ b) **Growth Trends**
         Example:
 ```mermaid
 flowchart LR
-            subgraph Support Activities
-            A[Firm Infrastructure]
-            B[Human Resource Management]
-            C[Technology Development]
-            D[Procurement]
-            end
-            subgraph Primary Activities
-            E[Inbound Logistics]
-            F[Operations]
-            G[Outbound Logistics]
-            H[Marketing & Sales]
-            I[Service]
-            end
-            E --> F
-            F --> G
-            G --> H
-            H --> I
-        ```
-    </value_chain_analysis>
-    
-    4. <pestle_analysis priority="important">
-        Analyze macro-environmental factors:
-        
-        a) <political_factors priority="important">
-            Identify 2-3 political factors that could impact the business:
-            - Government policies
-            - Political stability
-            - Trade regulations
-            - Tax policies
-        </political_factors>
-        
-        b) <economic_factors priority="important">
-            Identify 2-3 economic factors that could impact the business:
-            - Economic growth
-            - Interest rates
-            - Inflation
-            - Disposable income
-            - Unemployment rates
-        </economic_factors>
-        
-        c) <social_factors priority="important">
-            Identify 2-3 social factors that could impact the business:
-            - Demographics
-            - Cultural trends
-            - Lifestyle changes
-            - Education levels
-            - Health consciousness
-        </social_factors>
-        
-        d) <technological_factors priority="important">
-            Identify 2-3 technological factors that could impact the business:
-            - Innovation rates
-            - Automation
-            - R&D activity
-            - Technology adoption
-            - Technological obsolescence
-        </technological_factors>
-        
-        e) <legal_factors priority="important">
-            Identify 2-3 legal factors that could impact the business:
-            - Employment laws
-            - Consumer protection
-            - Health and safety regulations
-            - Industry-specific regulations
-            - Intellectual property laws
-        </legal_factors>
-        
-        f) <environmental_factors priority="important">
-            Identify 2-3 environmental factors that could impact the business:
-            - Climate change
-            - Environmental regulations
-            - Sustainability pressures
-            - Waste management
-            - Energy consumption
-        </environmental_factors>
-        
-        Create a Mermaid.js diagram showing the PESTLE analysis.
-        Example:
+subgraph Support Activities
+A[Firm Infrastructure]
+B[Human Resource Management]
+C[Technology Development]
+D[Procurement]
+end
+subgraph Primary Activities
+E[Inbound Logistics]
+F[Operations]
+G[Outbound Logistics]
+H[Marketing & Sales]
+I[Service]
+end
+E --> F
+F --> G
+G --> H
+H --> I
+```
+</value_chain_analysis>
+4. <pestle_analysis priority="important">
+Analyze macro-environmental factors:
+a) <political_factors priority="important">
+Identify 2-3 political factors that could impact the business:
+- Government policies
+- Political stability
+- Trade regulations
+- Tax policies
+</political_factors>
+b) <economic_factors priority="important">
+Identify 2-3 economic factors that could impact the business:
+- Economic growth
+- Interest rates
+- Inflation
+- Disposable income
+- Unemployment rates
+</economic_factors>
+c) <social_factors priority="important">
+Identify 2-3 social factors that could impact the business:
+- Demographics
+- Cultural trends
+- Lifestyle changes
+- Education levels
+- Health consciousness
+</social_factors>
+d) <technological_factors priority="important">
+Identify 2-3 technological factors that could impact the business:
+- Innovation rates
+- Automation
+- R&D activity
+- Technology adoption
+- Technological obsolescence
+</technological_factors>
+e) <legal_factors priority="important">
+Identify 2-3 legal factors that could impact the business:
+- Employment laws
+- Consumer protection
+- Health and safety regulations
+- Industry-specific regulations
+- Intellectual property laws
+</legal_factors>
+f) <environmental_factors priority="important">
+Identify 2-3 environmental factors that could impact the business:
+- Climate change
+- Environmental regulations
+- Sustainability pressures
+- Waste management
+- Energy consumption
+</environmental_factors>
+Create a Mermaid.js diagram showing the PESTLE analysis.
+Example:
 ```mermaid
         mindmap
             root((PESTLE Analysis))

@@ -119,125 +119,107 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
       Example diagram:
       ```mermaid
 journey
-          title Customer Transformation Journey
-          section Before
-            Starting Point: 1: Customer
-            Pain Point 1: 2: Customer
-          section During
-            Milestone 1: 3: Customer
-            Milestone 2: 4: Customer
-          section After
-            Desired Outcome: 5: Customer
-      ```
-
+title Customer Transformation Journey
+section Before
+Starting Point: 1: Customer
+Pain Point 1: 2: Customer
+section During
+Milestone 1: 3: Customer
+Milestone 2: 4: Customer
+section After
+Desired Outcome: 5: Customer
+```
 c) **Key Milestones**
-      - Identify 3-5 key milestones in the customer's journey through your solution
-      - For each milestone:
-        - Name the milestone
-        - Describe what happens at this stage
-        - Explain its importance in the overall transformation
-        - Note how it builds toward the next milestone
-      
-      Example diagram:
-      ```mermaid
-      flowchart LR
-          A[Milestone 1] --> [Milestone 2]
-          B --> [Milestone 3]
-          C --> [Milestone 4]
-          D --> [Final Outcome]
-      ```
-
-d) **Unique Advantages**
-      - Identify 3-5 unique advantages of this solution approach
-      - For each advantage:
-        - Describe the specific advantage
-        - Explain why it matters to customers
-        - Note how it differentiates from alternative approaches
-      
-      Focus on meaningful advantages that create real value, not superficial features
-
-   e) **Solution Summary**
-      - Provide a concise summary that ties together all elements of this signature solution
-      - Explain how this solution embodies the core business concept and delivers the value proposition
-      - This should serve as a compelling overview of the entire solution approach
-
-2. **Product Ladder**
-   - Design a 3-tier product/service ladder that forms a logical progression of offerings
-   - For each tier:
-     - Create a compelling name
-     - Define the target customer segment
-     - Describe what's included
-     - Explain the value delivered
-     - Note the approximate price point (low/medium/high relative to market)
-
-   Example format:
-   ```
-
-Tier 1: Entry Level
-   - Name: [product name]
-   - Target: [customer segment]
-   - Includes: [key components]
-   - Value: [specific benefits]
-   - Price Point: [relative pricing]
-   ```
-
+- Identify 3-5 key milestones in the customer's journey through your solution
+- For each milestone:
+- Name the milestone
+- Describe what happens at this stage
+- Explain its importance in the overall transformation
+- Note how it builds toward the next milestone
 Example diagram:
-   ```mermaid
-   graph TD
-      A[Entry Level] --> [Mid Level]
-      B --> [Premium Level]
-      style A fill:#f5f5f5,stroke:#d5d5d5
-      style B fill:#e6f7ff,stroke:#69c0ff
-      style C fill:#f6ffed,stroke:#95de64
-   ```
-
+```mermaid
+flowchart LR
+A[Milestone 1] --> [Milestone 2]
+B --> [Milestone 3]
+C --> [Milestone 4]
+D --> [Final Outcome]
+```
+d) **Unique Advantages**
+- Identify 3-5 unique advantages of this solution approach
+- For each advantage:
+- Describe the specific advantage
+- Explain why it matters to customers
+- Note how it differentiates from alternative approaches
+Focus on meaningful advantages that create real value, not superficial features
+e) **Solution Summary**
+- Provide a concise summary that ties together all elements of this signature solution
+- Explain how this solution embodies the core business concept and delivers the value proposition
+- This should serve as a compelling overview of the entire solution approach
 2. **Product Ladder**
-       a) **Core Product**
-          - Define the entry-level product/service:
-            - Name: [Product name]
-            - Format: [Delivery format - app, course, service, etc.]
-            - Price point: [Suggested pricing with rationale]
-            - Key features: [3-5 core features/components]
-            - Value delivered: [Primary value to customer]
-            - Goal: [Business objective for this offering]
-            
-            This should be accessible to new customers while delivering real value.
-        </core_product>
-        
-        b) **Mid-Tier Product**
-            - Define the mid-level product/service:
-            - Name: [Product name]
-            - Format: [Delivery format]
-            - Price point: [Suggested pricing with rationale]
-            - Key features: [3-5 core features/components, including what's added beyond core]
-            - Value delivered: [Enhanced value to customer]
-            - Goal: [Business objective for this offering]
-            
-            This should deepen engagement and value for committed customers.
-        </mid_tier_product>
-        
-        c) **Premium Product**
-            - Define the premium product/service:
-            - Name: [Product name]
-            - Format: [Delivery format]
-            - Price point: [Suggested pricing with rationale]
-            - Key features: [3-5 core features/components, including what's added beyond mid-tier]
-            - Value delivered: [Maximum value to customer]
-            - Goal: [Business objective for this offering]
-            
-            This should represent the ultimate solution for ideal customers.
-        </premium_product>
-        
-        d) <ascension_model priority="important">
-            Describe how customers progress through the product ladder:
-            - Entry points: How customers discover and start with initial offerings
-            - Transition triggers: What prompts movement to higher tiers
-            - Ascension incentives: How you encourage upgrades
-            - Typical customer journey: The expected path through offerings
-            
-            Format as a clear progression model with logical transitions.
-            
-            Create a Mermaid.js diagram showing the product ladder and customer ascension.
+- Design a 3-tier product/service ladder that forms a logical progression of offerings
+- For each tier:
+- Create a compelling name
+- Define the target customer segment
+- Describe what's included
+- Explain the value delivered
+- Note the approximate price point (low/medium/high relative to market)
+Example format:
+```
+Tier 1: Entry Level
+- Name: [product name]
+- Target: [customer segment]
+- Includes: [key components]
+- Value: [specific benefits]
+- Price Point: [relative pricing]
+```
+Example diagram:
+```mermaid
+graph TD
+A[Entry Level] --> [Mid Level]
+B --> [Premium Level]
+style A fill:#f5f5f5,stroke:#d5d5d5
+style B fill:#e6f7ff,stroke:#69c0ff
+style C fill:#f6ffed,stroke:#95de64
+```
+2. **Product Ladder**
+a) **Core Product**
+- Define the entry-level product/service:
+- Name: [Product name]
+- Format: [Delivery format - app, course, service, etc.]
+- Price point: [Suggested pricing with rationale]
+- Key features: [3-5 core features/components]
+- Value delivered: [Primary value to customer]
+- Goal: [Business objective for this offering]
+This should be accessible to new customers while delivering real value.
+</core_product>
+b) **Mid-Tier Product**
+- Define the mid-level product/service:
+- Name: [Product name]
+- Format: [Delivery format]
+- Price point: [Suggested pricing with rationale]
+- Key features: [3-5 core features/components, including what's added beyond core]
+- Value delivered: [Enhanced value to customer]
+- Goal: [Business objective for this offering]
+This should deepen engagement and value for committed customers.
+</mid_tier_product>
+c) **Premium Product**
+- Define the premium product/service:
+- Name: [Product name]
+- Format: [Delivery format]
+- Price point: [Suggested pricing with rationale]
+- Key features: [3-5 core features/components, including what's added beyond mid-tier]
+- Value delivered: [Maximum value to customer]
+- Goal: [Business objective for this offering]
+This should represent the ultimate solution for ideal customers.
+</premium_product>
+d) <ascension_model priority="important">
+Describe how customers progress through the product ladder:
+- Entry points: How customers discover and start with initial offerings
+- Transition triggers: What prompts movement to higher tiers
+- Ascension incentives: How you encourage upgrades
+- Typical customer journey: The expected path through offerings
+Format as a clear progression model with logical transitions.
+Create a Mermaid.js diagram showing the product ladder and customer ascension.
 ```mermaid
 flowchart TD
     A[Customer] --> B[Basic]
