@@ -90,10 +90,10 @@ YOUR INPUT: [Confirm or update your business description based on research insig
 
    ```mermaid
 graph LR
-    A[Customer Need]  --> |Solves|> B[Your Solution]
-    B  --> |Provides|> C[Key Benefit 1]
-    B  --> |Provides|> D[Key Benefit 2]
-    B  --> |Provides|> E[Key Benefit 3]
+    A[Customer Need] --> |Solves|> B[Your Solution]
+    B --> |Provides|> C[Key Benefit 1]
+    B --> |Provides|> D[Key Benefit 2]
+    B --> |Provides|> E[Key Benefit 3]
 ```
 
 5. **Inspiration Sources**
@@ -228,23 +228,23 @@ flowchart TD
        Example:
 ```mermaid
 flowchart TD
-    A[Avatar Name]  -->  B[Demographics]
-    B  -->  B1[Age range]
-    B  -->  B2[Income level]
-    B  -->  B3[Education]
-    B  -->  B4[Location]
-    A  -->  C[Psychographics]
-    C  -->  C1[Values]
-    C  -->  C2[Beliefs]
-    C  -->  C3[Interests]
-    A  -->  D[Pains]
-    D  -->  D1[Pain point 1]
-    D  -->  D2[Pain point 2]
-    A  -->  E[Goals]
-    E  -->  E1[Goal 1]
-    E  -->  E2[Goal 2]
-    A  -->  F[Currency]
-    F  -->  F1[Primary value]
+    A[Avatar Name] --> B[Demographics]
+    B --> B1[B1][Age range]
+    B --> B2[B2][Income level]
+    B --> B3[Education]
+    B --> B4[Location]
+    A --> C[Psychographics]
+    C --> C1[Values]
+    C --> C2[Beliefs]
+    C --> C3[Interests]
+    A --> D[Pains]
+    D --> D1[D1][Pain point 1]
+    D --> D2[D2][Pain point 2]
+    A --> E[Goals]
+    E --> E1[E1][Goal 1]
+    E --> E2[E2][Goal 2]
+    A --> F[Currency]
+    F --> F1[F1][Primary value]
 ```
 
 11. **Core Concept Summary**
@@ -262,23 +262,23 @@ flowchart TD
         Example:
 ```mermaid
 flowchart TD
-    A[Avatar Name]  -->  B[Demographics]
-    B  -->  B1[Age range]
-    B  -->  B2[Income level]
-    B  -->  B3[Education]
-    B  -->  B4[Location]
-    A  -->  C[Psychographics]
-    C  -->  C1[Values]
-    C  -->  C2[Beliefs]
-    C  -->  C3[Interests]
-    A  -->  D[Pains]
-    D  -->  D1[Pain point 1]
-    D  -->  D2[Pain point 2]
-    A  -->  E[Goals]
-    E  -->  E1[Goal 1]
-    E  -->  E2[Goal 2]
-    A  -->  F[Currency]
-    F  -->  F1[Primary value]
+    A[Avatar Name] --> B[Demographics]
+    B --> B1[B1][Age range]
+    B --> B2[B2][Income level]
+    B --> B3[Education]
+    B --> B4[Location]
+    A --> C[Psychographics]
+    C --> C1[Values]
+    C --> C2[Beliefs]
+    C --> C3[Interests]
+    A --> D[Pains]
+    D --> D1[D1][Pain point 1]
+    D --> D2[D2][Pain point 2]
+    A --> E[Goals]
+    E --> E1[E1][Goal 1]
+    E --> E2[E2][Goal 2]
+    A --> F[Currency]
+    F --> F1[F1][Primary value]
 ```
     </avatar_analysis>
     
@@ -311,23 +311,23 @@ flowchart TD
         Example:
 ```mermaid
 flowchart TD
-    A[Avatar Name]  -->  B[Demographics]
-    B  -->  B1[Age range]
-    B  -->  B2[Income level]
-    B  -->  B3[Education]
-    B  -->  B4[Location]
-    A  -->  C[Psychographics]
-    C  -->  C1[Values]
-    C  -->  C2[Beliefs]
-    C  -->  C3[Interests]
-    A  -->  D[Pains]
-    D  -->  D1[Pain point 1]
-    D  -->  D2[Pain point 2]
-    A  -->  E[Goals]
-    E  -->  E1[Goal 1]
-    E  -->  E2[Goal 2]
-    A  -->  F[Currency]
-    F  -->  F1[Primary value]
+    A[Avatar Name] --> B[Demographics]
+    B --> B1[B1][Age range]
+    B --> B2[B2][Income level]
+    B --> B3[Education]
+    B --> B4[Location]
+    A --> C[Psychographics]
+    C --> C1[Values]
+    C --> C2[Beliefs]
+    C --> C3[Interests]
+    A --> D[Pains]
+    D --> D1[D1][Pain point 1]
+    D --> D2[D2][Pain point 2]
+    A --> E[Goals]
+    E --> E1[E1][Goal 1]
+    E --> E2[E2][Goal 2]
+    A --> F[Currency]
+    F --> F1[F1][Primary value]
 ```
     </empathy_map_canvas>
     

@@ -71,8 +71,8 @@ YOUR INPUT: [Note any timing constraints or preferences for market entry]
       Example diagram:
       ```mermaid
 graph TD
-    A[Total Addressable Market: $Xb]  -->  [Serviceable Available Market: $Ym]
-    B  -->  [Serviceable Obtainable Market: $Zm]
+    A[Total Addressable Market: $Xb] --> [Serviceable Available Market: $Ym]
+    B --> B[B][Serviceable Obtainable Market: $Zm]
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style B fill:#bbf,stroke:#333,stroke-width:2px
     style C fill:#bfb,stroke:#333,stroke-width:2px
