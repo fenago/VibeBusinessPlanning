@@ -88,9 +88,9 @@ YOUR INPUT: [Confirm or update your business description based on research insig
    - Explain what specific problem is being solved and why it matters to customers
    - Highlight the key benefits customers will receive
 
-   ```mermaid
+```mermaid
 graph LR
-    A[Customer Need] --> |Solves|> B[Your Solution]
+    A[Customer Need] --> |Solves|> B [Your Solution]
     B --> |Provides|> C[Key Benefit 1]
     B --> |Provides|> D[Key Benefit 2]
     B --> |Provides|> E[Key Benefit 3]
@@ -111,8 +111,9 @@ graph LR
        2. [Step 2]: [User goal] → [Business objective]
        And so on...
 
-       Create a Mermaid.js diagram showing the customer journey flow.
+        Create a Mermaid.js diagram showing the customer journey flow.
        Example:
+
 
 ```mermaid
 flowchart LR
