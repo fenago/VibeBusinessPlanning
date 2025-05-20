@@ -118,16 +118,17 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
       
       Example diagram:
       ```mermaid
-journey
-title Customer Transformation Journey
-section Before
-Starting Point: 1: Customer
-Pain Point 1: 2: Customer
-section During
-Milestone 1: 3: Customer
-Milestone 2: 4: Customer
-section After
-Desired Outcome: 5: Customer
+flowchart TD
+    journey
+    title Customer Transformation Journey
+    section Before
+    Starting Point: 1: Customer
+    Pain Point 1: 2: Customer
+    section During
+    Milestone 1: 3: Customer
+    Milestone 2: 4: Customer
+    section After
+    Desired Outcome: 5: Customer
 ```
 c) **Key Milestones**
 - Identify 3-5 key milestones in the customer's journey through your solution
@@ -139,10 +140,10 @@ c) **Key Milestones**
 Example diagram:
 ```mermaid
 flowchart LR
-A[Milestone 1] --> [Milestone 2]
-B --> [Milestone 3]
-C --> [Milestone 4]
-D --> [Final Outcome]
+    A[Milestone 1]  -->  [Milestone 2]
+    B  -->  [Milestone 3]
+    C  -->  [Milestone 4]
+    D  -->  [Final Outcome]
 ```
 d) **Unique Advantages**
 - Identify 3-5 unique advantages of this solution approach
@@ -175,11 +176,11 @@ Tier 1: Entry Level
 Example diagram:
 ```mermaid
 graph TD
-A[Entry Level] --> [Mid Level]
-B --> [Premium Level]
-style A fill:#f5f5f5,stroke:#d5d5d5
-style B fill:#e6f7ff,stroke:#69c0ff
-style C fill:#f6ffed,stroke:#95de64
+    A[Entry Level]  -->  [Mid Level]
+    B  -->  [Premium Level]
+    style A fill:#f5f5f5,stroke:#d5d5d5
+    style B fill:#e6f7ff,stroke:#69c0ff
+    style C fill:#f6ffed,stroke:#95de64
 ```
 2. **Product Ladder**
 a) **Core Product**
@@ -222,17 +223,17 @@ Format as a clear progression model with logical transitions.
 Create a Mermaid.js diagram showing the product ladder and customer ascension.
 ```mermaid
 flowchart TD
-    A[Customer] --> B[Basic]
-    B --> C[Standard]
-    C --> D[Premium]
-    B -.-> E[Churn]
-    C -.-> E
-    D -.-> F[Advocate]
-    subgraph Value-Ladder
+    A[Customer]  -->  B[Basic]
+    B  -->  C[Standard]
+    C  -->  D[Premium]
+    B  -.->  E[Churn]
+    C  -.->  E
+    D  -.->  F[Advocate]
+subgraph Value-Ladder
     B
     C
     D
-    end
+end
 ```
         </ascension_model>
         

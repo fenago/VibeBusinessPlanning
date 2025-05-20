@@ -88,14 +88,12 @@ YOUR INPUT: [Confirm or update your business description based on research insig
    - Explain what specific problem is being solved and why it matters to customers
    - Highlight the key benefits customers will receive
 
-   Example diagram:
-
-```mermaid
+   ```mermaid
 graph LR
-A[Customer Need] --> B[Your Solution]
-B --> C[Key Benefit 1]
-B --> D[Key Benefit 2]
-B --> E[Key Benefit 3]
+    A[Customer Need]  --> |Solves|> B[Your Solution]
+    B  --> |Provides|> C[Key Benefit 1]
+    B  --> |Provides|> D[Key Benefit 2]
+    B  --> |Provides|> E[Key Benefit 3]
 ```
 
 5. **Inspiration Sources**
@@ -117,12 +115,12 @@ B --> E[Key Benefit 3]
        Example:
 ```mermaid
 flowchart LR
-A[Awareness] --> [Consideration]
-B --> [Decision]
-C --> [Onboarding]
-D --> [Usage]
-E --> [Retention]
-F --> [Advocacy]
+    A[Awareness]  -->  [Consideration]
+    B  -->  [Decision]
+    C  -->  [Onboarding]
+    D  -->  [Usage]
+    E  -->  [Retention]
+    F  -->  [Advocacy]
 ```
 7. **Core Differentiators**
 - Identify 3-5 key differentiators that set this business apart
@@ -135,85 +133,70 @@ Create a Mermaid.js diagram showing how these differentiators relate to customer
 Example:
 ```mermaid
 flowchart LR
-           A[Customer Need 1] --> [Differentiator 1]
-           B[Customer Need 2] --> [Differentiator 2]
-           C[Customer Need 3] --> [Differentiator 3]
-           D1 --> [Value Proposition]
-           D2 --> V
-           D3 --> V
-       ```
-
-8. **Avatar Analysis**
-       - Create a detailed avatar (customer persona) based on the Avatar Framework:
-
-         a) **Passion Elements**
-           - Who would the business help for free?
-           - What comes naturally to the business in serving customers?
-
-         b) **Problem Definition**
-           - What explicit need does the business address?
-           - How is the market for this solution growing?
-           - How does the business solve the problem better/cheaper/faster?
-
-         c) **Profit Potential**
-           - How can customers afford this solution?
-           - What's the size of the target niche?
-           - How can ROI be quantified?
-           - What's the potential for recurring revenue?
-
-         d) **Presence Strategy**
-           - How can the business be seen as the "go-to" provider?
-           - How competitive is the niche?
-           - What messaging is currently used in the market?
-
-         e) **Pathway to Engagement**
-           - How easily can the target audience be reached online?
-           - Which social channels dominate for this audience?
-           - What interests, experts, publications, and groups are relevant?
-
-         f) **Demographics**
-           - Age, income, education, occupation, location
-
-         g) **Psychographics**
-           - Values, beliefs, interests, attitudes, lifestyle
-
-         h) **Pains and Frustrations**
-           - What problems and challenges does the avatar face?
-
-         i) **Goals and Desires**
-           - What does the avatar want to achieve or experience?
-
-         j) **Fears and Implications**
-           - What is the avatar afraid of and what are the consequences?
-
-         k) **Dreams and Aspirations**
-           - What ideal future state does the avatar aspire to?
-
-         l) **Currency**
-           - What matters most to the avatar? (time, money, status, etc.)
-
-       Create a Mermaid.js diagram visualizing the avatar's key characteristics.
-       Example:
+    A[Customer Need 1]  -->  [Differentiator 1]
+    B[Customer Need 2]  -->  [Differentiator 2]
+    C[Customer Need 3]  -->  [Differentiator 3]
+    D1  -->  [Value Proposition]
+    D2  -->  V
+    D3  -->  V
+    ```
+    8. **Avatar Analysis**
+    - Create a detailed avatar (customer persona) based on the Avatar Framework:
+    a) **Passion Elements**
+    - Who would the business help for free?
+    - What comes naturally to the business in serving customers?
+    b) **Problem Definition**
+    - What explicit need does the business address?
+    - How is the market for this solution growing?
+    - How does the business solve the problem better/cheaper/faster?
+    c) **Profit Potential**
+    - How can customers afford this solution?
+    - What's the size of the target niche?
+    - How can ROI be quantified?
+    - What's the potential for recurring revenue?
+    d) **Presence Strategy**
+    - How can the business be seen as the "go-to" provider?
+    - How competitive is the niche?
+    - What messaging is currently used in the market?
+    e) **Pathway to Engagement**
+    - How easily can the target audience be reached online?
+    - Which social channels dominate for this audience?
+    - What interests, experts, publications, and groups are relevant?
+    f) **Demographics**
+    - Age, income, education, occupation, location
+    g) **Psychographics**
+    - Values, beliefs, interests, attitudes, lifestyle
+    h) **Pains and Frustrations**
+    - What problems and challenges does the avatar face?
+    i) **Goals and Desires**
+    - What does the avatar want to achieve or experience?
+    j) **Fears and Implications**
+    - What is the avatar afraid of and what are the consequences?
+    k) **Dreams and Aspirations**
+    - What ideal future state does the avatar aspire to?
+    l) **Currency**
+    - What matters most to the avatar? (time, money, status, etc.)
+    Create a Mermaid.js diagram visualizing the avatar's key characteristics.
+    Example:
 ```mermaid
-mindmap
-root((Avatar Name))
-Demographics
-Age range
-Income level
-Education
-Location
-Psychographics
-Values
-Beliefs
-Interests
-Pains
-Pain point 1
-Pain point 2
-Goals
-Goal 1
-Goal 2
-Currency
-Primary value
+flowchart TD
+    A[Avatar Name] --> B[Demographics]
+    B --> B1[Age range]
+    B --> B2[Income level]
+    B --> B3[Education]
+    B --> B4[Location]
+    A --> C[Psychographics]
+    C --> C1[Values]
+    C --> C2[Beliefs]
+    C --> C3[Interests]
+    A --> D[Pains]
+    D --> D1[Pain point 1]
+    D --> D2[Pain point 2]
+    A --> E[Goals]
+    E --> E1[Goal 1]
+    E --> E2[Goal 2]
+    A --> F[Currency]
+    F --> F1[Primary value]
 ```
 
 9. **Million Dollar Message**
@@ -243,25 +226,24 @@ Primary value
        Create a Mermaid.js diagram showing the empathy map.
        Example:
 ```mermaid
-mindmap
-root((Avatar Name))
-Demographics
-Age range
-Income level
-Education
-Location
-Psychographics
-Values
-Beliefs
-Interests
-Pains
-Pain point 1
-Pain point 2
-Goals
-Goal 1
-Goal 2
-Currency
-Primary value
+flowchart TD
+    A[Avatar Name]  -->  B[Demographics]
+    B  -->  B1[Age range]
+    B  -->  B2[Income level]
+    B  -->  B3[Education]
+    B  -->  B4[Location]
+    A  -->  C[Psychographics]
+    C  -->  C1[Values]
+    C  -->  C2[Beliefs]
+    C  -->  C3[Interests]
+    A  -->  D[Pains]
+    D  -->  D1[Pain point 1]
+    D  -->  D2[Pain point 2]
+    A  -->  E[Goals]
+    E  -->  E1[Goal 1]
+    E  -->  E2[Goal 2]
+    A  -->  F[Currency]
+    F  -->  F1[Primary value]
 ```
 
 11. **Core Concept Summary**
@@ -278,25 +260,24 @@ Primary value
         Create a Mermaid.js diagram visualizing the avatar's key characteristics.
         Example:
 ```mermaid
-mindmap
-root((Avatar Name))
-Demographics
-Age range
-Income level
-Education
-Location
-Psychographics
-Values
-Beliefs
-Interests
-Pains
-Pain point 1
-Pain point 2
-Goals
-Goal 1
-Goal 2
-Currency
-Primary value
+flowchart TD
+    A[Avatar Name]  -->  B[Demographics]
+    B  -->  B1[Age range]
+    B  -->  B2[Income level]
+    B  -->  B3[Education]
+    B  -->  B4[Location]
+    A  -->  C[Psychographics]
+    C  -->  C1[Values]
+    C  -->  C2[Beliefs]
+    C  -->  C3[Interests]
+    A  -->  D[Pains]
+    D  -->  D1[Pain point 1]
+    D  -->  D2[Pain point 2]
+    A  -->  E[Goals]
+    E  -->  E1[Goal 1]
+    E  -->  E2[Goal 2]
+    A  -->  F[Currency]
+    F  -->  F1[Primary value]
 ```
     </avatar_analysis>
     
@@ -328,25 +309,24 @@ Primary value
         Create a Mermaid.js diagram showing the empathy map.
         Example:
 ```mermaid
-mindmap
-root((Avatar Name))
-Demographics
-Age range
-Income level
-Education
-Location
-Psychographics
-Values
-Beliefs
-Interests
-Pains
-Pain point 1
-Pain point 2
-Goals
-Goal 1
-Goal 2
-Currency
-Primary value
+flowchart TD
+    A[Avatar Name]  -->  B[Demographics]
+    B  -->  B1[Age range]
+    B  -->  B2[Income level]
+    B  -->  B3[Education]
+    B  -->  B4[Location]
+    A  -->  C[Psychographics]
+    C  -->  C1[Values]
+    C  -->  C2[Beliefs]
+    C  -->  C3[Interests]
+    A  -->  D[Pains]
+    D  -->  D1[Pain point 1]
+    D  -->  D2[Pain point 2]
+    A  -->  E[Goals]
+    E  -->  E1[Goal 1]
+    E  -->  E2[Goal 2]
+    A  -->  F[Currency]
+    F  -->  F1[Primary value]
 ```
     </empathy_map_canvas>
     

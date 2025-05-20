@@ -71,11 +71,11 @@ YOUR INPUT: [Note any timing constraints or preferences for market entry]
       Example diagram:
       ```mermaid
 graph TD
-A[Total Addressable Market: $Xb] --> [Serviceable Available Market: $Ym]
-B --> [Serviceable Obtainable Market: $Zm]
-style A fill:#f9f,stroke:#333,stroke-width:2px
-style B fill:#bbf,stroke:#333,stroke-width:2px
-style C fill:#bfb,stroke:#333,stroke-width:2px
+    A[Total Addressable Market: $Xb]  -->  [Serviceable Available Market: $Ym]
+    B  -->  [Serviceable Obtainable Market: $Zm]
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bfb,stroke:#333,stroke-width:2px
 ```
 b) **Growth Trends**
 - Analyze market growth patterns:
@@ -97,19 +97,18 @@ For each major competitor, analyze:
 Example diagram:
 ```mermaid
 quadrantChart
-title Competitive Positioning
-x-axis Low Price --> High Price
-y-axis Low Quality --> High Quality
-quadrant-1 Premium
-quadrant-2 Overpriced
-quadrant-3 Budget
-quadrant-4 Value
-"Competitor A": [0.3, 0.6]
-"Competitor B": [0.7, 0.7]
-"Competitor C": [0.4, 0.3]
-"Our Business": [0.6, 0.8]
-"Your Business": [0.5, 0.8]
-"Competitor C": [0.2, 0.4]
+    title Competitive Positioning
+    x-axis Low Price --> High Price
+    y-axis Low Quality --> High Quality
+    quadrant-1 "Opportunity Area"
+    quadrant-2 "Market Leaders"
+    quadrant-3 "Declining Segment"
+    quadrant-4 "Emerging Players"
+    "Competitor A": [0.7, 0.8]
+    "Competitor B": [0.5, 0.6]
+    "Our Business": [0.4, 0.7]
+    "Competitor C": [0.3, 0.4]
+    "Competitor D": [0.6, 0.3]
 ```
 </competitive_landscape>
 d) <swot_analysis priority="important">
@@ -134,65 +133,57 @@ For each category, list 3-5 specific factors with brief explanations.
 Create a Mermaid.js diagram showing the SWOT analysis.
 Example:
 ```mermaid
-            classDiagram
-                class Strengths {
-                    +Strength 1
-                    +Strength 2
-                    +Strength 3
-                }
-                class Weaknesses {
-                    +Weakness 1
-                    +Weakness 2
-                    +Weakness 3
-                }
-                class Opportunities {
-                    +Opportunity 1
-                    +Opportunity 2
-                    +Opportunity 3
-                }
-                class Threats {
-                    +Threat 1
-                    +Threat 2
-                    +Threat 3
-                }
-            ```
-        </swot_analysis>
-        
-        e) <barriers_to_entry priority="important">
-            Analyze barriers affecting market entry:
-            
-            For the business:
-            - What barriers must be overcome to enter successfully?
-            - How can these barriers be addressed?
-            
-            For potential competitors:
-            - What barriers will protect against new entrants?
-            - How can these barriers be strengthened?
-            
-            Consider economies of scale, capital requirements, switching costs, access to distribution, etc.
-        </barriers_to_entry>
-        
-        f) <regulatory_considerations priority="important">
-            Identify relevant regulatory factors:
-            - Industry-specific regulations
-            - Data privacy and security requirements
-            - Consumer protection laws
-            - Intellectual property considerations
-            - Emerging regulatory trends
-            
-            Explain how these factors impact the business model and strategy.
-        </regulatory_considerations>
+flowchart TD
+    classDiagram
+    class Strengths {
+    +Strength 1
+    +Strength 2
+    +Strength 3
+    }
+    class Weaknesses {
+    +Weakness 1
+    +Weakness 2
+    +Weakness 3
+    }
+    class Opportunities {
+    +Opportunity 1
+    +Opportunity 2
+    +Opportunity 3
+    }
+    class Threats {
+    +Threat 1
+    +Threat 2
+    +Threat 3
+    }
+    ```
+    </swot_analysis>
+    e) <barriers_to_entry priority="important">
+    Analyze barriers affecting market entry:
+    For the business:
+    - What barriers must be overcome to enter successfully?
+    - How can these barriers be addressed?
+    For potential competitors:
+    - What barriers will protect against new entrants?
+    - How can these barriers be strengthened?
+    Consider economies of scale, capital requirements, switching costs, access to distribution, etc.
+    </barriers_to_entry>
+    f) <regulatory_considerations priority="important">
+    Identify relevant regulatory factors:
+    - Industry-specific regulations
+    - Data privacy and security requirements
+    - Consumer protection laws
+    - Intellectual property considerations
+    - Emerging regulatory trends
+    Explain how these factors impact the business model and strategy.
+    </regulatory_considerations>
     </market_analysis>
-    
     3. <value_chain_analysis priority="important">
-        Analyze the complete value chain:
-        - Primary activities (inbound logistics, operations, outbound logistics, marketing & sales, service)
-        - Support activities (infrastructure, HR, technology, procurement)
-        
-        Identify where the business creates the most value and potential areas for improvement.
-        
-        Create a Mermaid.js diagram showing the value chain.
-        Example:
+    Analyze the complete value chain:
+    - Primary activities (inbound logistics, operations, outbound logistics, marketing & sales, service)
+    - Support activities (infrastructure, HR, technology, procurement)
+    Identify where the business creates the most value and potential areas for improvement.
+    Create a Mermaid.js diagram showing the value chain.
+    Example:
 ```mermaid
 flowchart LR
 subgraph Support Activities

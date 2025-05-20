@@ -78,21 +78,21 @@ a) **Launch Timeline**
    Example launch timeline:
    ```mermaid
 gantt
-title Product Launch Timeline
-dateFormat  YYYY-MM-DD
-section Pre-Launch
-Final QA Testing      :a1, 2023-06-01, 14d
-Marketing Prep        :a2, 2023-06-01, 21d
-Press Outreach        :a3, 2023-06-15, 14d
-section Launch Day
-Website Go-Live       :milestone, 2023-07-01, 0d
-PR Release            :b1, 2023-07-01, 1d
-Social Media Blitz    :b2, 2023-07-01, 3d
-section Post-Launch
-Support Monitoring    :c1, 2023-07-01, 14d
-Initial Feedback      :c2, 2023-07-08, 7d
-First Optimizations   :c3, 2023-07-15, 14d
-30-Day Review         :milestone, 2023-08-01, 0d
+    title Project Timeline
+    dateFormat  YYYY-MM-DD
+    section Research
+    Market Analysis      :a1, 2023-01-01, 30d
+    Competitor Analysis  :a2, after a1, 20d
+    section Development
+    Product Design       :b1, after a2, 45d
+    Development          :b2, after b1, 60d
+    Testing              :b3, after b2, 30d
+    section Launch
+    Marketing            :c1, after b1, 45d
+    Launch               :c2, after b3, 10d
+    section Post-Launch
+    Evaluation           :d1, after c2, 20d
+    Iteration            :d2, after d1, 30d
 ```
 b) **Launch Day Strategy**
 - Detail the specific hour-by-hour approach for launch day:
@@ -141,12 +141,12 @@ a) **Feedback Collection System**
 Example feedback loop:
 ```mermaid
 flowchart LR
-A[Collect Feedback] --> [Analyze Trends]
-B --> [Prioritize Changes]
-C --> [Implement Solutions]
-D --> [Validate Results]
-E --> [Communicate Changes]
-F --> A
+    A[Collect Feedback]  -->  [Analyze Trends]
+    B  -->  [Prioritize Changes]
+    C  -->  [Implement Solutions]
+    D  -->  [Validate Results]
+    E  -->  [Communicate Changes]
+    F  -->  A
 ```
 b) **Feedback Analysis Framework**
 - Create systems for processing customer insights:
