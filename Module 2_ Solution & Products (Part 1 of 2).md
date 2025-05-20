@@ -239,19 +239,19 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
             Create a Mermaid.js diagram showing the product ladder and customer ascension.
             Example:
             ```mermaid
-            flowchart TD
-                A[New Customer] --> [Core Product]
-                B --> [Mid-Tier Product]
-                C --> [Premium Product]
-                B -.-> E[Churn]
-                C -.-> E
-                D -.-> F[Advocacy]
-                subgraph "Value Ladder"
-                B
-                C
-                D
-                end
-            ```
+flowchart TD
+    A[New Customer] --> B[Core Product]
+    B --> C[Mid-Tier Product]
+    C --> D[Premium Product]
+    B -.-> E[Churn]
+    C -.-> E
+    D -.-> F[Advocacy]
+    subgraph "Value Ladder"
+    B
+    C
+    D
+    end
+```
         </ascension_model>
         
         e) <pricing_strategy priority="important">
