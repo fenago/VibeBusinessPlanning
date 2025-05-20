@@ -112,15 +112,16 @@ graph LR
        And so on...
 
        Create a Mermaid.js diagram showing the customer journey flow.
-       Example:
+Example:
+
 ```mermaid
 flowchart LR
-    A[Awareness]  -->  [Consideration]
-    B  -->  [Decision]
-    C  -->  [Onboarding]
-    D  -->  [Usage]
-    E  -->  [Retention]
-    F  -->  [Advocacy]
+    A[Awareness] --> B[Consideration]
+    B --> C[Decision]
+    C --> D[Onboarding]
+    D --> E[Usage]
+    E --> F[Retention]
+    F --> G[Advocacy]
 ```
 7. **Core Differentiators**
 - Identify 3-5 key differentiators that set this business apart
@@ -131,15 +132,16 @@ flowchart LR
 Focus on meaningful differences that create real value, not superficial distinctions.
 Create a Mermaid.js diagram showing how these differentiators relate to customer needs.
 Example:
+
 ```mermaid
 flowchart LR
-    A[Customer Need 1]  -->  [Differentiator 1]
-    B[Customer Need 2]  -->  [Differentiator 2]
-    C[Customer Need 3]  -->  [Differentiator 3]
-    D1  -->  [Value Proposition]
-    D2  -->  V
-    D3  -->  V
-    ```
+    A[Customer Need 1] --> B[Differentiator 1]
+    C[Customer Need 2] --> D[Differentiator 2]
+    E[Customer Need 3] --> F[Differentiator 3]
+    B --> G[Value Proposition]
+    D --> G
+    F --> G
+```
     8. **Avatar Analysis**
     - Create a detailed avatar (customer persona) based on the Avatar Framework:
     a) **Passion Elements**
