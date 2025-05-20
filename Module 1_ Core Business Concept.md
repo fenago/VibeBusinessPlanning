@@ -4,13 +4,9 @@
 ![Status: Ready For Input](https://img.shields.io/badge/Status-Ready_For_Input-22C55E?style=for-the-badge)
 ![Estimated Time: 60 Minutes](https://img.shields.io/badge/Estimated_Time-60_Minutes-F5A9B8?style=flat-square)
 
-<div style="border-left: 4px solid #5BCEFA; background-color: #E8F4FD; padding: 12px; margin-bottom: 20px;">
-
 ## 🌌 Defining Your Business Identity
 
-> This module focuses on defining your core business concept based on research findings. You'll clarify your value proposition, mission, vision, and strategic positioning.
-
-</div>
+> **Note:** This module focuses on defining your core business concept based on research findings. You'll clarify your value proposition, mission, vision, and strategic positioning.
 
 ### 🌟 Module Purpose
 
@@ -38,21 +34,18 @@ INSTRUCTIONS FOR USER:
     </research_findings>
 </previous_research>
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
-
 ## 📝 User Input Section
 
 > **INSTRUCTIONS:** Complete the fields below with your business information. Fields marked with • are required.
 
-### • <span style="color: #3182CE;">Business Name</span>
+### • **Business Name**
 YOUR INPUT: [Confirm or update your business name]
 
-### • <span style="color: #3182CE;">Business Description</span>
+### • **Business Description**
 YOUR INPUT: [Confirm or update your business description based on research insights]
 
-</div>
 
-<div style="border: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; margin: 20px 0; background-color: #F8FAFC;">
+---
 
 ## 📓 LLM Instructions
 
