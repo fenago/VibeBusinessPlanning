@@ -89,7 +89,7 @@ YOUR INPUT: [List any technical limitations or requirements for your solution]
           D --> A
       ```
 
-   c) **Engagement Loops**
+c) **Engagement Loops**
       - Define the core engagement loops that keep users coming back
       - Include different time scales:
         - Daily/frequent loops: [Short-term engagement patterns]

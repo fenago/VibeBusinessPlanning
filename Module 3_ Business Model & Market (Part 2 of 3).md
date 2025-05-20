@@ -70,7 +70,7 @@ YOUR INPUT: [Note any timing constraints or preferences for market entry]
       
       Example diagram:
       ```mermaid
-      graph TD
+graph TD
           A[Total Addressable Market: $Xb] --> [Serviceable Available Market: $Ym]
           B --> [Serviceable Obtainable Market: $Zm]
           style A fill:#f9f,stroke:#333,stroke-width:2px
@@ -78,7 +78,7 @@ YOUR INPUT: [Note any timing constraints or preferences for market entry]
           style C fill:#bfb,stroke:#333,stroke-width:2px
       ```
 
-   b) **Growth Trends**
+b) **Growth Trends**
       - Analyze market growth patterns:
         - Historical growth rates
         - Projected future growth
@@ -102,8 +102,8 @@ YOUR INPUT: [Note any timing constraints or preferences for market entry]
       ```mermaid
       quadrantChart
           title Competitive Positioning
-          x-axis Low Price -->  High Price
-          y-axis Low Quality -->  High Quality
+          x-axis Low Price --> High Price
+          y-axis Low Quality --> High Quality
           quadrant-1 Premium
           quadrant-2 Overpriced
           quadrant-3 Budget
@@ -144,7 +144,7 @@ YOUR INPUT: [Note any timing constraints or preferences for market entry]
             
             Create a Mermaid.js diagram showing the SWOT analysis.
             Example:
-            ```mermaid
+```mermaid
             classDiagram
                 class Strengths {
                     +Strength 1
@@ -204,15 +204,15 @@ YOUR INPUT: [Note any timing constraints or preferences for market entry]
         
         Create a Mermaid.js diagram showing the value chain.
         Example:
-        ```mermaid
-        flowchart LR
-            subgraph "Support Activities"
+```mermaid
+flowchart LR
+            subgraph Support Activities
             A[Firm Infrastructure]
             B[Human Resource Management]
             C[Technology Development]
             D[Procurement]
             end
-            subgraph "Primary Activities"
+            subgraph Primary Activities
             E[Inbound Logistics]
             F[Operations]
             G[Outbound Logistics]
@@ -284,7 +284,7 @@ YOUR INPUT: [Note any timing constraints or preferences for market entry]
         
         Create a Mermaid.js diagram showing the PESTLE analysis.
         Example:
-        ```mermaid
+```mermaid
         mindmap
             root((PESTLE Analysis))
                 Political

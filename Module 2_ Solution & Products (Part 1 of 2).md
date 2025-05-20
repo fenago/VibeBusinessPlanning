@@ -118,7 +118,7 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
       
       Example diagram:
       ```mermaid
-      journey
+journey
           title Customer Transformation Journey
           section Before
             Starting Point: 1: Customer
@@ -130,7 +130,7 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
             Desired Outcome: 5: Customer
       ```
 
-   c) **Key Milestones**
+c) **Key Milestones**
       - Identify 3-5 key milestones in the customer's journey through your solution
       - For each milestone:
         - Name the milestone
@@ -146,8 +146,8 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
           C --> [Milestone 4]
           D --> [Final Outcome]
       ```
-        
-   d) **Unique Advantages**
+
+d) **Unique Advantages**
       - Identify 3-5 unique advantages of this solution approach
       - For each advantage:
         - Describe the specific advantage
@@ -172,7 +172,8 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
 
    Example format:
    ```
-   Tier 1: Entry Level
+
+Tier 1: Entry Level
    - Name: [product name]
    - Target: [customer segment]
    - Includes: [key components]
@@ -180,7 +181,7 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
    - Price Point: [relative pricing]
    ```
 
-   Example diagram:
+Example diagram:
    ```mermaid
    graph TD
       A[Entry Level] --> [Mid Level]
@@ -190,7 +191,7 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
       style C fill:#f6ffed,stroke:#95de64
    ```
 
-    2. **Product Ladder**
+2. **Product Ladder**
        a) **Core Product**
           - Define the entry-level product/service:
             - Name: [Product name]
@@ -237,7 +238,6 @@ YOUR INPUT: [Specify which platforms your solution should work on (web, mobile, 
             Format as a clear progression model with logical transitions.
             
             Create a Mermaid.js diagram showing the product ladder and customer ascension.
-
 ```mermaid
 flowchart TD
     A[Customer] --> B[Basic]

@@ -180,7 +180,7 @@ INSTRUCTIONS FOR USER:
           bar [50, 75, 90, 120, 150, 190, 250, 300, 320, 380, 420, 500]
       ```
 
-   b) **Growth Levers**
+b) **Growth Levers**
       - Identify 3-5 primary drivers of business growth
       - For each growth driver, detail:
         - Impact potential: [Estimated effect on growth]

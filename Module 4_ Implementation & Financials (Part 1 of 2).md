@@ -19,7 +19,6 @@
 📂 Previous Module Output
 
 > **INSTRUCTIONS:** Paste the complete output from Module 3 here
-
 ```
 [Paste your complete output from Module 3 here]
 ```
@@ -122,7 +121,8 @@ a) **Timeline & Phases**
        Marketing campaign       :c1, after b2, 90d
        Additional hiring        :c2, after b2, 60d
    ```
-                title "Revenue Projection"
+
+title "Revenue Projection"
                 x-axis [Year 1, Year 2, Year 3]
                 y-axis "Revenue ($)" 0 --> **Note:** 1000000
                 bar [250000, 600000, 950000]

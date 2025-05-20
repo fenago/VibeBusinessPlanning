@@ -19,7 +19,6 @@
 📂 Previous Module Output
 
 > **INSTRUCTIONS:** Paste the complete output from Module 5 (Parts 1 & 2) here
-
 ```
 [Paste your complete output from Module 5 (Parts 1 & 2) here]
 ```
@@ -78,7 +77,7 @@ a) **Launch Timeline**
    
    Example launch timeline:
    ```mermaid
-   gantt
+gantt
        title Product Launch Timeline
        dateFormat  YYYY-MM-DD
        section Pre-Launch
@@ -296,7 +295,7 @@ a) **Phase 1: Foundation**
 
      Create a Mermaid.js gantt chart showing the Phase 1 timeline.
      Example:
-     ```mermaid
+```mermaid
      gantt
          title Phase 1: Foundation (Months 1-3)
          dateFormat  YYYY-MM-DD

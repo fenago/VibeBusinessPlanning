@@ -59,7 +59,6 @@ Provide a 2-3 paragraph summary of the business concept based on the name and de
 Provide a brief overview of the industry this business would operate in. Include market size, growth trends, and key players if available. Identify 2-3 similar businesses or competitors.
 
 Create a diagram showing the industry structure and where this business fits. Example:
-
 ```mermaid
 flowchart TD
     A[Industry Name] --> [Segment 1]
@@ -83,7 +82,6 @@ Identify the primary customer segments this business would serve. Describe their
 Identify 3-5 relevant trends affecting this business space. Explain how these trends create opportunities or challenges. Note any regulatory or technological factors to consider.
 
 Create a timeline diagram showing trend evolution. Example:
-
 ```mermaid
 gitGraph
     commit id: "2020"

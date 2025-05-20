@@ -19,7 +19,6 @@
 📂 Previous Module Output
 
 > **INSTRUCTIONS:** Paste the complete output from Module 4 (Part 1) here
-
 ```
 [Paste your complete output from Module 4 (Part 1) here]
 ```

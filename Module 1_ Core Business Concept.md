@@ -89,9 +89,8 @@ YOUR INPUT: [Confirm or update your business description based on research insig
    - Highlight the key benefits customers will receive
 
    Example diagram:
-   
-   ```mermaid
-   graph LR
+```mermaid
+graph LR
        A[Customer Need] --> [Your Solution]
        B --> [Key Benefit 1]
        B --> [Key Benefit 2]
@@ -115,7 +114,7 @@ YOUR INPUT: [Confirm or update your business description based on research insig
 
        Create a Mermaid.js diagram showing the customer journey flow.
        Example:
-       ```mermaid
+```mermaid
        flowchart LR
            A[Awareness] --> [Consideration]
            B --> [Decision]
@@ -125,7 +124,7 @@ YOUR INPUT: [Confirm or update your business description based on research insig
            F --> [Advocacy]
        ```
 
-    7. **Core Differentiators**
+7. **Core Differentiators**
        - Identify 3-5 key differentiators that set this business apart
        - For each differentiator, explain:
          - What makes it unique
@@ -136,8 +135,8 @@ YOUR INPUT: [Confirm or update your business description based on research insig
 
        Create a Mermaid.js diagram showing how these differentiators relate to customer needs.
        Example:
-       ```mermaid
-       flowchart LR
+```mermaid
+flowchart LR
            A[Customer Need 1] --> [Differentiator 1]
            B[Customer Need 2] --> [Differentiator 2]
            C[Customer Need 3] --> [Differentiator 3]
@@ -146,7 +145,7 @@ YOUR INPUT: [Confirm or update your business description based on research insig
            D3 --> V
        ```
 
-    8. **Avatar Analysis**
+8. **Avatar Analysis**
        - Create a detailed avatar (customer persona) based on the Avatar Framework:
 
          a) **Passion Elements**
@@ -197,7 +196,7 @@ YOUR INPUT: [Confirm or update your business description based on research insig
 
        Create a Mermaid.js diagram visualizing the avatar's key characteristics.
        Example:
-       ```mermaid
+```mermaid
        mindmap
            root((Avatar Name))
                Demographics
@@ -219,7 +218,7 @@ YOUR INPUT: [Confirm or update your business description based on research insig
                    Primary value
        ```
 
-    9. **Million Dollar Message**
+9. **Million Dollar Message**
        - Create a compelling Million Dollar Message following this formula:
          "I help [TARGET AUDIENCE] achieve/do [GOAL/SOLUTION], so they can [DESIRED RESULT] without [PAIN POINT] in [TIMEFRAME]."
 
@@ -245,8 +244,8 @@ YOUR INPUT: [Confirm or update your business description based on research insig
 
        Create a Mermaid.js diagram showing the empathy map.
        Example:
-       ```mermaid
-       mindmap
+```mermaid
+mindmap
            root((Customer Empathy Map))
                Sees
                    Market offerings
@@ -274,7 +273,7 @@ YOUR INPUT: [Confirm or update your business description based on research insig
                    Success measures
        ```
 
-    11. **Core Concept Summary**
+11. **Core Concept Summary**
        - Synthesize all the above elements into a cohesive 2-3 paragraph summary.
        - This should serve as a comprehensive yet concise overview of the business concept.
        - Highlight how the various elements work together to create a compelling business opportunity.
@@ -287,7 +286,7 @@ YOUR INPUT: [Confirm or update your business description based on research insig
         
         Create a Mermaid.js diagram visualizing the avatar's key characteristics.
         Example:
-        ```mermaid
+```mermaid
         mindmap
             root((Avatar Name))
                 Demographics
@@ -337,7 +336,7 @@ YOUR INPUT: [Confirm or update your business description based on research insig
         
         Create a Mermaid.js diagram showing the empathy map.
         Example:
-        ```mermaid
+```mermaid
         mindmap
             root((Customer Empathy Map))
                 Sees
