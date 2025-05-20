@@ -112,7 +112,7 @@ graph LR
        And so on...
 
        Create a Mermaid.js diagram showing the customer journey flow.
-Example:
+       Example:
 
 ```mermaid
 flowchart LR
@@ -123,6 +123,8 @@ flowchart LR
     E --> F[Retention]
     F --> G[Advocacy]
 ```
+
+
 7. **Core Differentiators**
 - Identify 3-5 key differentiators that set this business apart
 - For each differentiator, explain:
