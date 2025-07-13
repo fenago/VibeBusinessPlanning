@@ -1,4 +1,4 @@
-Take the original avatar research, the diary entries above showcasing the transformation, and the outline below. Return me the copy for each section, formatted like this:
+Take the original avatar research, the diary entries, and brand identity showcasing the transformation, and the outline below. Return me the copy and the specifications for each section (this will be a react application), formatted like this:
 
 <example-format>
 Product Requirement: AI SaaS Software - Homepage
