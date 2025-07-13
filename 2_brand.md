@@ -86,6 +86,9 @@ Produce the document by collaborating as the Brand & Design Syndicate. Each expe
 `#### MagicUI Components`
 (Based on the Research Summary, list at least 5 specific animated components from a library like **MagicUI** that would enhance the user experience. Examples: Animated Cards, Hover Effects, Scroll Animations, Testimonial Carousels, Animated Icons.)
 
+`#### reactbits.dev Components`
+(Based on the `UI Framework & Components` section of the Research Summary, list the categories of components from a modern library like **reactbits.dev** that will be used. Examples: Navigation, Layout, Forms, Feedback, Data Display, Disclosure.)
+
 `#### Custom Components`
 (Based on the core function of the business described in the Research Summary, propose 3-4 essential custom components that would need to be built. Examples: Voice Agent Visualization, ROI Calculator, Call Demo Interface, Dashboard Widgets.)
 
