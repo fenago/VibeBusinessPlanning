@@ -1,5 +1,5 @@
 Part 1: Research
-Give me five customer avatars for an offer about [OFFER]. The avatars will be based off of the Stages of Market Awareness as taught by Eugene Schwartz in his book Breakthrough Advertising. I want one avatar for each stage:
+Give me five customer avatars for an offer about BJJ and Wrestling training & skill development. The avatars will be based off of the Stages of Market Awareness as taught by Eugene Schwartz in his book Breakthrough Advertising. I want one avatar for each stage:
 
 These stages are:
 
@@ -9,9 +9,9 @@ Solution Aware
 Product Aware
 Most Aware
 
-The audience is [audience] [problem]
+The audience is all ages of people that train BJJ and Wrestling that want to expand their training and skill development
 
-It’s a [price point] [offer] that helps [target market] [benefit]
+It’s a free website that is for BJJ and Wrestling training & skill development that helps all ages of peopele to better their sport
 
 Put the avatar in the following format:
 
