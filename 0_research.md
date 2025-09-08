@@ -1,5 +1,5 @@
 Part 1: Research
-Give me five customer avatars for an offer about [OFFER]. The avatars will be based off of the Stages of Market Awareness as taught by Eugene Schwartz in his book Breakthrough Advertising. I want one avatar for each stage:
+Give me five customer avatars for an offer about wearable warming device for freezing temperatures on residual limbs. The avatars will be based off of the Stages of Market Awareness as taught by Eugene Schwartz in his book Breakthrough Advertising. I want one avatar for each stage:
 
 These stages are:
 
@@ -9,9 +9,9 @@ Solution Aware
 Product Aware
 Most Aware
 
-The audience is [audience] [problem]
+The audience is paraplegic athletes with residual limb freezing during olympic bobsled competitions.
 
-It’s a [price point] [offer] that helps [target market] [benefit]
+It’s a $200 device that helps paraplegic athletes keep their residual limbs warm during freezing and icy competition conditions.
 
 Put the avatar in the following format:
 
