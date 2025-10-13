@@ -1,13 +1,13 @@
-Part 1: Research
-Give me five customer avatars for an offer about [OFFER]. The avatars will be based off of the Stages of Market Awareness as taught by Eugene Schwartz in his book Breakthrough Advertising. I want one avatar for each stage:
+# Part 1: Research
+Research five customer avatars for an offer about [OFFER]. The avatars will be based off of the Stages of Market Awareness as taught by Eugene Schwartz in his book Breakthrough Advertising. I want one avatar for each stage:
 
 These stages are:
 
-Unaware
-Problem Aware
-Solution Aware
-Product Aware
-Most Aware
+- Unaware
+- Problem Aware
+- Solution Aware
+- Product Aware
+- Most Aware
 
 The audience is [audience] [problem]
 
@@ -76,6 +76,6 @@ Feeling:
 Saying:
 Doing:
 
-Make sure each avatar is at least 1000 words.
+Make sure the avatar is at least 1000 words.
 
-Give me the problem aware avatar
+Give me ONLY the problem aware avatar
