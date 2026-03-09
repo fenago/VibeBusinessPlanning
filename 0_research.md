@@ -1,5 +1,5 @@
 # Part 1: Research
-Research five customer avatars for an offer about [OFFER]. The avatars will be based off of the Stages of Market Awareness as taught by Eugene Schwartz in his book Breakthrough Advertising. I want one avatar for each stage:
+Research five customer avatars for an offer about [OFFER]. The avatars will be based off of the Stages of Market Awareness as taught by Eugene Schwartz in his book Breakthrough Advertising. Even though you are researching 5 stages - I only want the Problem Aware Avatar!!!!
 
 These stages are:
 
